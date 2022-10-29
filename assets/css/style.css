@@ -47,7 +47,6 @@ body,html{
   --font-size-main: 18px;
   --font-size-titles: 20px;
   --font-size-copyright: 12px;
-  --font-size-menu-description: 14px;
   --blur-effect : blur(15px);
 }
 /******************************************************************************/
@@ -193,7 +192,7 @@ filter: blur(.8px);
 }
 #punchline3 {
   font-size: 300%;
-  bottom: 250px;
+  bottom: 200px;
   left: 500px;
   letter-spacing: 10px;
   position: absolute;
