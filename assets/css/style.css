@@ -271,6 +271,12 @@ text-align: left;
 .content ul li:hover{
   color:var(--color-main-6);
 }
+.content strong{
+  color:var(--color-main-6);
+  font-size: 18px;
+  font-weight: bold;
+}
+
 /******************************************************************************/
 /*--------------------ALL MEDIA CONTENT INTO ANY BOX -------------------------*/
 /******************************************************************************/
@@ -282,7 +288,7 @@ text-align: left;
 }
 .media video{
   border-radius: 62px;
-  width: 80%;
+  width: 90%;
   height: auto;
   box-shadow: 10px 15px 5px var(--color-black);
 }
