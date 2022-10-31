@@ -261,7 +261,6 @@ filter: blur(.8px);
   font-weight: 400;
   font-size: var(--font-size-main);
   padding: 4px 4px;
-  text-align: justify;
 }
 .content li{
 list-style: none;
@@ -291,6 +290,9 @@ text-align: left;
   width: 90%;
   height: auto;
   box-shadow: 10px 15px 5px var(--color-black);
+}
+.media{
+  text-align: center;
 }
 .partners img{
   border-radius: 62px;
@@ -354,6 +356,9 @@ input,
 textarea{
  font-family: inherit;
 }
+p{
+  text-align: justify;
+}
 /******************************************************************************/
 /*---------------------------PREMIUM OFFERS BOXES---------------------------- */
 /*  2 differents displays :
@@ -361,7 +366,7 @@ textarea{
  - with hover attribute display animation (premium-box) : log-in.html
   Both have 3 offers  :
  - Private (private class)
- - Business (BUSINESS class)
+ - Business (business class)
  - pro (pro class)
 /******************************************************************************/
 .premium-box-fixed,
@@ -389,13 +394,17 @@ textarea{
 .premium-box-fixed .premium{
   transform: scale(1.2);
 }
-.premium-box .premium{
+.premium-box .premium.private{
+  transform: scale(0.7);
+}
+.premium-box .premium.business{
   transform: scale(0.8);
 }
-.premium-box-fixed .premium.pro{
+.premium-box .premium.pro{
   background-color: var(--color-main-1);
-  transform: scale(1.3);
+  transform: scale(0.9);
 }
+
 .premium-box .premium .price,
 .premium-box-fixed .premium .price{
   margin-bottom: 25px;
@@ -698,7 +707,7 @@ All items (presentation-item)on presentation timeline have :
 }
 
 .container-offers:hover .payment-box{
-    transform: translateX(0%);
+  transform: translateX(0%);
 }
 /*payment-box will appears when hover premium-box*/
 .payment-box{
@@ -709,16 +718,11 @@ height: 100%;
 width: 100%;
 display: flex;
 flex-direction: column;
-transform: translateX(120%);
+transform: translateX(100%);
 transition: all 1s;
 }
-/*--------BUTTON BUY NOW ON EACH PACKAGES------------------------------------ */
 
 
-.premium-box .premium.pro{
-background-color: var(--color-main-1);
-transform: scale(1);
-}
 /*title of each offers*/
 .title-premium{
   font-size: 28px;
