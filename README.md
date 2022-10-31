@@ -253,6 +253,7 @@ As a first goal :
 - Create a nice template for recipes
 - Display a recipe book with one click
 As a final goal :
+- Create a marketplace where you could share/sell/exchange your best recipes.
 - Give the possibility to add a new recipe in the database just by taking a picture
 of an hand written recipe and all items auto-detected and then generate
 a food cost price and digital recipe. Very ambitious!
@@ -379,6 +380,7 @@ To be honest, best parts of my learning progress are the following :
 - Learn how to deal with screen functionality and **responsiveness**
 - Learn how to use browser **Inspect Element**
 - Learn how to make animation with CSS **(@keyframes)**
+
 ![Keyframes](assets/images/readme-images/keyframes.png)
 
 [Back to top](<#contents>)
