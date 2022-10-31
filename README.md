@@ -51,6 +51,9 @@ This ambitious project aims to help small entrepreneurs in food industry
 * [**Testing**](<#testing>)
      * [Am i responsive?]
      * [HTML / CSS Validator]
+     * [Browser Compatibility]
+     * [Lighthouse]
+     * [Unfixed Bugs]
 * [**Deployment**](<#deployment>)
 * [**Credits**](<#credits>)
     * [**Content**](<#content>)
@@ -74,8 +77,8 @@ during the creation process.
 
 ## Site Structure
 
-FOOD COST website has three pages. The [home page](index.html) is the default loading page,
-[partners](partners.html) and [suscribe](suscribe.html) pages are all accessible primarily 
+FOOD COST website has three pages. The [home page](https://artontray.github.io/PROJECT1/index.html) is the default loading page,
+[partners](https://artontray.github.io/PROJECT1/partners.html) and [suscribe](https://artontray.github.io/PROJECT1/suscribe.html) pages are all accessible primarily 
 from the up navigation menu.
 
 [Back to top](<#contents>)
@@ -86,7 +89,7 @@ from the up navigation menu.
       The font chosen were 'Delius' for all the content of the website. I have chosen
       to import the font directly from the .ttf file to avoid any problem of compatibility
       in the future.
-      ![Import font](assets/readme-images/font-delius.png)
+      ![Import font](assets/images/readme-images/font-delius.png)
 
 
 
@@ -97,20 +100,19 @@ from the up navigation menu.
       that users may be more likely to purchase, as they view your blue website
        as reliable and professional.
 
-![Colours used](assets/readme-images/colors.png)
+![Colours used](assets/images/readme-images/colors.png)
 
 
 [Back to top](<#contents>)
 
-## Features 
+# Features 
 
 This website is intended for small or private entrepreneurs 
-who work in food industry. The main page highlights a 
-dynamic menu with 3 links:
-* ### Body
+who works in food industry. The main page is composed by three sections :
+* ## Body
   * ### Navigation bar
   - Featured on all three pages, the full responsive navigation bar includes 
-  links to the Logo, Home page, Partners and Sign Up page and is 
+  links to the Logo, Home page, Partners and Suscribe page and is 
   identical in each page to allow an easy navigation.
   - This section is fixed and will allow the user to easily navigate from 
   page to page across all devices without having to revert back
@@ -129,6 +131,7 @@ dynamic menu with 3 links:
   - easy to change the design of the title of each boxes just by selecting 
   the right CSS class.
 ![Middle page](assets/images/readme-images/middle-page02.png)
+[Back to top](<#contents>)
   - and finally, easy to configure and display in different screen size. 
 
 ![Middle page on smaller screen](assets/images/readme-images/middle-page01.png)
@@ -142,13 +145,14 @@ dynamic menu with 3 links:
 ![Footer section](assets/images/readme-images/footer.png)
 [Back to top](<#contents>)
 
-* ### Home Section
+* ## Home Section
   * ### Landing page
 
   - The landing page includes an image with catching animation
    to grab users attention ('punchlines').
    
 ![Landing Page](assets/images/readme-images/landing-page.png)
+[Back to top](<#contents>)
   * ### Situation
 
   - It was important for me to explain the current situation 
@@ -158,6 +162,9 @@ dynamic menu with 3 links:
 
   - A small list of questions which FOOD COST can answers.
 
+![Situation section](assets/images/readme-images/situation.png)
+[Back to top](<#contents>)
+
   * ### Trailer
   Contains a video "trailer" :
    - I wanted to highlights the possibilities of the FOOD COST app in
@@ -166,6 +173,7 @@ dynamic menu with 3 links:
   valuable as it encourages the user to have a dynamic view of the app's features in less than 1 minut.
   
   ![Trailer](assets/images/readme-images/trailer.png)
+  [Back to top](<#contents>)
 
   * ### Gallery
   
@@ -173,6 +181,7 @@ dynamic menu with 3 links:
    of the recipe in paper format to final result on the plate.
 
 ![Gallery](assets/images/readme-images/gallery.png)
+[Back to top](<#contents>)
 
 * ### Offers
 
@@ -181,6 +190,7 @@ dynamic menu with 3 links:
   This section is valuable as it gives details about what is actually included on each offer.
 
 ![Premium offers](assets/images/readme-images/premium-offers.png)
+[Back to top](<#contents>)
 
 * ### Roadmap
 
@@ -189,6 +199,7 @@ dynamic menu with 3 links:
   It can allow users to visualize an more accomplished version of the project.
 
 ![Roadmap](assets/images/readme-images/roadmap.png)
+[Back to top](<#contents>)
 
 * ### Team
 
@@ -196,9 +207,10 @@ dynamic menu with 3 links:
   - Providing clear information about a project's team is a guarantee of quality and involvement.
 
 ![Roadmap](assets/images/readme-images/team.png)
+[Back to top](<#contents>)
 
 
-* ### Partners
+* ## Partners
   This section contains all about partnership : already registered partners
  and their story in relation to the app. 
  Also, a form is available to eventually request as a new partner to the app.
@@ -212,8 +224,9 @@ dynamic menu with 3 links:
   * Partnership Timeline to highlights chronologic aspects.
 
 ![Roadmap](assets/images/readme-images/partners.png)
+[Back to top](<#contents>)
 
-* ### Suscribe
+* ## Suscribe
 
 I wanted this page to be displayed everything on the same display, so 
 no need to scroll down. You have direct access to the different offers
@@ -223,14 +236,14 @@ In this section you can :
 and select premium package of your choice. 
 - Any concerns, please use the form on left side.
 
-* ### To sum up
+* ## To sum up
 
 To sum up, a user can have a direct acces throught a navigation menu
  to informations about
 the product, how it works, what are the offers and how to suscribe.
 
-
-* ### Future Features
+[Back to top](<#contents>)
+* ## Future Features
 
 - As i wrote in the roadmap, my goal would be to develop the app 
 entirely. 
@@ -244,98 +257,137 @@ As a final goal :
 of an hand written recipe and all items auto-detected and then generate
 a food cost price and digital recipe. Very ambitious!
 
+[Back to top](<#contents>)
 
+* # Technologies Used
+* [HTML5](https://html.spec.whatwg.org/) - provides the content and structure for the website.
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - provides the styling.
+* [Balsamiq](https://balsamiq.com/wireframes/) - used to create the wireframes.
+* [Gitpod](https://www.gitpod.io/#get-started) - used to deploy the website.
+* [Github](https://github.com/) - used to host and edit the website.
 
+[Back to top](<#contents>)
 
-
-
+# Testing
 
 ## Am I responsive Website?
+Yes, I am!
+- The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/)
 ![Responsive test from https://ui.dev/amiresponsive](assets/images/readme-images/Visual-am-i-responsive.png)
 
+[Back to top](<#contents>)
+
+## HTML / CSS VALIDATOR
+
+### HTML
+  The website site has been tested through the 
+  [W3C html Validator](https://validator.w3.org/).
+  Some Warnings shows up at the beginning but easily fixed.
+
+  ![Warning HTML](assets/images/readme-images/warning-html.png)
+  ![Warning HTML](assets/images/readme-images/warning-html02.png)
 
 
-- __The Sign Up Page__
+The HTML validator results for each page are below:
+- index.html :
+![index.html](assets/images/readme-images/html-checker-index.png)
+- partners.html :
+![partners.html](assets/images/readme-images/html-checker-partners.png)
+- suscribe.html :
+![suscribe.html](assets/images/readme-images/html-checker-suscribe.png)
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+[Back to top](<#contents>)
+### CSS
+  The website site has been tested through the 
+  [CSS Validator](https://jigsaw.w3.org/).
+  Some Warnings shows up at the beginning but easily fixed.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![style.css](assets/images/readme-images/css-checker.png.png)
+[Back to top](<#contents>)
+## Browser Compatibility
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+The website was tested on the following browsers with no visible issues for the user :
+- Google Chrome
+- Mozilla Firefox. 
+[Back to top](<#contents>)
+## Lighthouse
+The site was also tested using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) 
+in Chrome Developer Tools to test each of the pages for:
+* Performance - How the page performs whilst loading.
+* Accessibility - Is the site acccessible for all users and how can it be improved.
+* Best Practices - Site conforms to industry best practices.
+* SEO - Search engine optimisation. Is the site optimised for search engine result rankings.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+My first try was surprising : Very slow to load
+![Bad perf.](assets/images/readme-images/bad-perf.png)
 
-### Features Left to Implement
-
-- Another feature idea
-
-## Testing 
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-
-### Validator Testing 
-
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-
+This part of the testing process showed up that the site was slow to load, mainly due to 
+the image sizes. All the images needed to be compressed before adding to the repository.
+Once this was done the performance went from ~60% to ~90%. 
+- Thanks [Panda!](https://tinypng.com/)
+![Thanks Panda](assets/images/readme-images/thanks-panda.png)
+and thanks [Veed.io](https://www.veed.io/) :
+![Thanks Panda](assets/images/readme-images/video-compress.png)
+After using [Panda Tiny png](https://tinypng.com/) :
+![Thanks Panda](assets/images/readme-images/after-compress.png)
+[Back to top](<#contents>)
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+The trailer shows up really small in small devices like Iphone 5,6. I would like to 
+add a possibility to put full screen display but it seems I need Javascript
+to fix that. [Sources](https://stackoverflow.com/questions/27768320/html5-video-double-click-to-go-full-screen)
 
-## Deployment
+[Back to top](<#contents>)
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+# Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+### **To deploy the project**
+The site was deployed to GitHub pages. The steps to deploy a site are as follows:
+  1. In the GitHub repository, navigate to the **Settings** tab.
+  2. Once in Settings, navigate to the **Pages** tab on the left hand side.
+  3. Under **Source**, select the branch to **master**, then click **save**.
+  4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - [Here](https://github.com/artontray/PROJECT1)
 
+# Credits 
 
-## Credits 
+## Content
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+* The font came from [Google Fonts](https://fonts.google.com/specimen/Delius?query=delius).
+* [Veed.io](https://www.veed.io/) was used to compress the video trailer.
+* The animation hovering box for payment came from [YouTube tutorial](https://www.youtube.com/watch?v=YM_f2fD7Yuk).
+* The vertical Timeline idea came from [YouTube tutorial](https://www.youtube.com/watch?v=L9W33EuGjoY&t=345s).
+* The Custom Checkbox idea came from [YouTube tutorial](https://www.youtube.com/watch?v=PuoCczjlj1s&t=15s).
+* [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes.
+* [Readme.so](https://readme.so/) was used to write this readme File.
 
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+## Media
+* Some Food Pictures came from [Google Images](https://www.google.com/maps).
+* Icons for social media came from [Google Images](https://www.google.com/maps).
+* Some Icons came from [Font Awesome](https://fontawesome.com/).
+* First landing picture came from [Google Images](https://www.pexels.com/).
 
-## Other General Project Advice
+[Back to top](<#contents>)
 
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
+## Best part of this project
 
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
+To be honest, best parts of my learning progress are the following :
+- Learn how to interact with **github and Gitpod** to create project 
+- Learn some **Unix basics commands** to interact with Gitpod/Github
+- Learn how to deal with screen functionality and **responsiveness**
+- Learn how to use browser **Inspect Element**
+- Learn how to make animation with CSS **(@keyframes)**
+![Keyframes](assets/images/readme-images/keyframes.png)
 
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
+[Back to top](<#contents>)
+# Acknowledgements
+The site was completed as a Portfolio 1 Project for the Full Stack Software Developer Diploma at the [Code Institute](https://codeinstitute.net/).
+As such I would like to thank the web in general for beeing such a open library for learning, the Slack community for the retro-active attitude.
 
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
+This material has been prepared for educational purposes only and is not intended to provide any offer or service.
 
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+Damien B.
+
+[Back to top](<#contents>)
