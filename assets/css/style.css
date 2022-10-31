@@ -288,12 +288,14 @@ text-align: left;
 }
 .partners img{
   border-radius: 62px;
-  width: 250px;
-  height: 250px;
-  text-align:center;
-  margin-left:auto;
-  height: auto;
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  
   box-shadow: 10px 15px 5px var(--color-black);
+}
+.partners{
+  text-align: center;
 }
 /******************************************************************************/
 /*-----------------------------------FOOTER---------------------------------- */
@@ -508,7 +510,6 @@ All items (presentation-item)on presentation timeline have :
 .presentation-image img{
   border-radius: 50%;
   width: 200px;
-  padding-left: 150px;
   height: 200px;
 }
 /*Images of partners logo*/
@@ -517,7 +518,10 @@ All items (presentation-item)on presentation timeline have :
     width: 200px;
     height: 200px;
 }
-
+.presentation-image{
+  text-align: center;
+  justify-content: space-between; 
+}
 /******************************************************************************/
 /*---------------------------PAGE log-in.html ------------------------------- */
 /******************************************************************************/
