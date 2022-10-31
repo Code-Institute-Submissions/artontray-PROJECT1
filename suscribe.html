@@ -37,25 +37,25 @@
                                   <!-- Any questions form -->
         <div class="form-main">
           <div id="suscribe-now">
-            <h2>Any questions about suscription ?</h2>
+            <h2>Suscribe Now!<img src="assets/images/arrow.png" alt="arrow suscribe now" width="150"></h2>
           </div>
           <div class="form-content">
             <div class="box-form">
-              <h3>Already an account?</h3><center><i class="fa-solid fa-user-check"></i></center>
+              <h3>Any questions about suscription<i class="fa-solid fa-circle-question fa-2x"></i></h3>
                 <form action="#" method="POST">
                   <div class="input">
-                    <input type="text" placeholder="Email" class="input-item" maxlength="25" required>
+                    <input type="email" placeholder="Your Email" class="input-item" maxlength="25" required>
                   </div>
                   <div class="input">
-                    <input type="password" placeholder="Password" class="input-item" maxlength="15" required>
-                    <div class="input-checkbox">
-                      <input type="checkbox" class="input-checkbox-input" id="checkbox-remember-me" checked>
-                      <label for="checkbox-remember-me" class="input-checkbox-text"><p>Remember Me</p></label>
-                      <label for="checkbox-remember-me" class="input-checkbox-slider"></label>
-                    </div>
+                        <textarea id="feedback" cols="45" rows="7" maxlength="350" name="describe-question" placeholder="What is your concern ?" required></textarea>
+                        
                   </div>
-                  <button type="submit" class="button-submit">Log In</button>
-                  <p>Forgot your password ? <a href="#" >here</a></p>
+                  <div class="input-checkbox">
+                    <input type="checkbox" class="input-checkbox-input" id="checkbox-newsletter" checked>
+                    <label for="checkbox-newsletter" class="input-checkbox-text"><p>Newsletter ?</p></label>
+                    <label for="checkbox-newsletter" class="input-checkbox-slider"></label>
+                </div>
+                  <button type="submit" class="button-submit">Send</button>
                 </form>
             </div>
           </div>
@@ -152,8 +152,8 @@
                       <div class="input">
                         <label for="exp-date-cb" class="input-checkbox-text"><p><h6>Exp. Date Credit Card</h6></p></label>
                         <input type="date" class="input-item no-underline" id="exp-date-cb" min="2023-01-01" required>
-                        <input type="text" placeholder="CVC" class="input-item" maxlength="3" required>
                         <input type="text" placeholder="Card Number" class="input-item" maxlength="25" required>
+                        <input type="text" placeholder="CVC" class="input-item" maxlength="3" required>
                       </div>
                       <button type="submit" class="button-submit">PAY NOW</button>
                     </form>
