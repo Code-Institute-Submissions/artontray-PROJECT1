@@ -287,11 +287,12 @@ text-align: left;
   box-shadow: 10px 15px 5px var(--color-black);
 }
 .partners img{
-  border-radius: 22px;
-  width: 200px;
-  height: 200px;
-  padding: 15px;
-  align-items: center;
+  border-radius: 62px;
+  width: 100%;
+  text-align:center;
+  margin-left:auto;
+  height: auto;
+  box-shadow: 10px 15px 5px var(--color-black);
 }
 /******************************************************************************/
 /*-----------------------------------FOOTER---------------------------------- */
@@ -506,6 +507,7 @@ All items (presentation-item)on presentation timeline have :
 .presentation-image img{
   border-radius: 50%;
   width: 200px;
+  padding-left: 150px;
   height: 200px;
 }
 /*Images of partners logo*/
@@ -834,7 +836,11 @@ BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
   .presentation-item:nth-child(even){
     padding-left: 0;
   }
-
+  /*------------Image padding, radius and size--------------------*/
+  .presentation-image img{
+    padding-left: 200px;
+  
+  }
 /*----------------DOTS DOES NOT SHOW------------------------------------------*/
   .presentation-point,
   .presentation-point-today,
