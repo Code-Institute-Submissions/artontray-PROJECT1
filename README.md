@@ -48,11 +48,11 @@ This ambitious project aims to help small entrepreneurs in food industry
     * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
-     * [Am i responsive?]
-     * [HTML / CSS Validator]
-     * [Browser Compatibility]
-     * [Lighthouse]
-     * [Unfixed Bugs]
+     * Am i responsive?
+     * HTML / CSS Validator
+     * Browser Compatibility
+     * Lighthouse
+     * Unfixed Bugs
 * [**Deployment**](<#deployment>)
 * [**Credits**](<#credits>)
     * [**Content**](<#content>)
@@ -283,14 +283,16 @@ the product, how it works, what are the offers and how to suscribe.
 [Back to top](<#contents>)
 ## Future Features
 
-- As i wrote in the roadmap, my goal would be to develop the app 
+As i wrote in the roadmap, my goal would be to develop the app 
 entirely. 
+
 As a first goal :
 - Create an log in section
 - Create a database where users can add ingredients list with prices 
 - Create a nice template for recipes
-- Display a recipe book with one click
-As a final goal :
+- Display a recipe book with one click.
+
+**As a final goal** :
 - Create a marketplace where you could share/sell/exchange your best recipes.
 - Give the possibility to add a new recipe in the database just by taking a picture
 of an hand written recipe and all items auto-detected and then generate

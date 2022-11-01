@@ -768,9 +768,9 @@ BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
 /*---------------------------SCREEN ADAPTABILITY----------------------------- */
 /**header height AND middle-content padding-top SHOUDL BE THE SAME NUMBER SO
 BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
-/*---------------------------1246px SCREEN AND SMALLER----------------------- */
+/*---------------------------1346px SCREEN AND SMALLER----------------------- */
 /******************************************************************************/
-@media only screen and (max-width: 1300px){
+@media only screen and (max-width: 1346px){
 /*RESIZE OF header*/
   #header{
   height: calc(var(--height-main) - 50px);/* SIZE OF THE NAV BOX ON TOP*/
