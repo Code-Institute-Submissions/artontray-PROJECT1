@@ -31,7 +31,7 @@ This ambitious project aims to help small entrepreneurs in food industry
     * [**Home**](<#home-section>)
          * [Loading page](<#loading-page>)
          * [situation](<#situation>)
-         * [Are you in this situation?](<#are-you-in-this-situation?>)
+         * [Are you in this situation?](<#are-you-in-this-situation>)
          * [Trailer](<#Trailer>)
          * [gallery](<#gallery>)
          * [offers](<#offers>)
@@ -42,9 +42,8 @@ This ambitious project aims to help small entrepreneurs in food industry
         * Partnership listing
         * Partnership timeline
     * [**Suscribe**](<#suscribe>)
-         * [suscribe form](<#suscribe-form>)
-         * [Offers]
-         * [Any questions form]
+         * suscribe form and "Any question form"
+         * Any questions form
     * [**To sum up**](<#to-sum-up>)
     * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
@@ -125,7 +124,7 @@ who works in food industry. The main page is composed by three sections :
 
   From the beginning, i wanted to have a very flexible middle page.
   In this case , flexible means :
-  - constituted by different boxes with differents design.
+  - constituted by different boxes with different design.
   - easy to change the design just by selecting the right CSS class.
 
 Box without design with title on left side :
@@ -160,22 +159,24 @@ Box with design with title on center :
   The links will open to a new tab to allow easy navigation for the user.
 
 ![Footer section](assets/images/readme-images/footer.png)
+
 [Back to top](<#contents>)
 
 * ## Home Section
-  * ### Loading page
+   ### Loading page
 
   - The loading page includes an image with catching animation
    to grab users attention ('punchlines').
    
 ![Loading Page](assets/images/readme-images/loading-page.png)
+
 [Back to top](<#contents>)
-  * ### Situation
+   ### Situation
 
   - It was important for me to explain the current situation 
   in small food industry companies to highlights FOOD COST solution's 
   proposal.
-  * ### Are you in this situation?
+  ### Are you in this situation?
 
   - A small list of questions which FOOD COST can answers.
 
@@ -183,7 +184,7 @@ Box with design with title on center :
 
 [Back to top](<#contents>)
 
-  * ### Trailer
+  ### Trailer
   Contains a video "trailer" :
    - I wanted to highlights the possibilities of the FOOD COST app in
   less than 1 minut.
@@ -191,44 +192,49 @@ Box with design with title on center :
   valuable as it encourages the user to have a dynamic view of the app's features in less than 1 minut.
   
   ![Trailer](assets/images/readme-images/trailer.png)
+
   [Back to top](<#contents>)
 
-  * ### Gallery
+  ### Gallery
   
   - The image gallery is made in such a way as to see the different stages from the creation
    of the recipe in paper format to final result on the plate.
 
 ![Gallery](assets/images/readme-images/gallery.png)
+
 [Back to top](<#contents>)
 
-* ### Offers
+### Offers
 
   - This section aims to inform the user about allocated fees to each offers from the App.
   - 3 different offers brings possibilities to users to selected the apropriate needed service.
   This section is valuable as it gives details about what is actually included on each offer.
 
 ![Premium offers](assets/images/readme-images/premium-offers.png)
+
 [Back to top](<#contents>)
 
-* ### Roadmap
+### Roadmap
 
   - This section aims to inform the user about the roadmap of the project. 
   - The roadmap highlights the progress of the project and especially future goals.
   It can allow users to visualize an more accomplished version of the project.
 
 ![Roadmap](assets/images/readme-images/roadmap.png)
+
 [Back to top](<#contents>)
 
-* ### Team
+### Team
 
  - This section aims to inform the user about the team. 
   - Providing clear information about a project's team is a guarantee of quality and involvement.
 
 ![Roadmap](assets/images/readme-images/team.png)
+
 [Back to top](<#contents>)
 
 
-* ## Partners
+## Partners
   This section contains all about partnership : already registered partners
  and their story in relation to the app. 
  Also, a form is available to eventually request as a new partner to the app.
@@ -242,9 +248,13 @@ Box with design with title on center :
   * Partnership Timeline to highlights chronologic aspects.
 
 ![Roadmap](assets/images/readme-images/partners.png)
+
+![form to join as a Partner](assets/images/readme-images/join-partner.png)
+
+
 [Back to top](<#contents>)
 
-* ## Suscribe
+## Suscribe
 
 I wanted this page to be displayed everything on the same display, so 
 no need to scroll down. You have direct access to the different offers
@@ -254,14 +264,24 @@ In this section you can :
 and select premium package of your choice. 
 - Any concerns, please use the form on left side.
 
-* ## To sum up
+### suscribe form and "Any question form"
+
+![Offers and payment form on same page](assets/images/readme-images/suscribe01.png)
+
+### Payment form
+
+![Offers and payment form on same page](assets/images/readme-images/suscribe02.png)
+
+[Back to top](<#contents>)
+
+## To sum up
 
 To sum up, a user can have a direct acces throught a navigation menu
  to informations about
 the product, how it works, what are the offers and how to suscribe.
 
 [Back to top](<#contents>)
-* ## Future Features
+## Future Features
 
 - As i wrote in the roadmap, my goal would be to develop the app 
 entirely. 
@@ -278,7 +298,7 @@ a food cost price and digital recipe. Very ambitious!
 
 [Back to top](<#contents>)
 
-* # Technologies Used
+# Technologies Used
 * [HTML5](https://html.spec.whatwg.org/) - provides the content and structure for the website.
 * [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - provides the styling.
 * [Balsamiq](https://balsamiq.com/wireframes/) - used to create the wireframes.
