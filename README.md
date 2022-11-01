@@ -428,7 +428,7 @@ If you need to "FORK" a repository:
 2. In the top right corner, click `Fork`
 3. The next page will be the forked version of https://github.com/artontray/PROJECT1 but in your own repository
 
-
+[Back to top](<#contents>)
 
 # Credits 
 
@@ -442,6 +442,7 @@ If you need to "FORK" a repository:
 * [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes.
 * [Readme.so](https://readme.so/) was used to write this readme File.
 
+[Back to top](<#contents>)
 
 ## Media
 * Some Food Pictures came from [Google Images](https://www.google.com/maps).
