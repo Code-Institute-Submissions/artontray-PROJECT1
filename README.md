@@ -127,7 +127,24 @@ who works in food industry. The main page is composed by three sections :
   In this case , flexible means :
   - constituted by different boxes with differents design.
   - easy to change the design just by selecting the right CSS class.
+
+Box without design with title on left side :
+
+![Middle page with 5 responsive boxes](assets/images/readme-images/box-design01.png)
+
+Box with design with title on right side :
+
+![Middle page with 5 responsive boxes](assets/images/readme-images/box-design02.png)
+
+Box with design with title on center :
+
+![Middle page with 5 responsive boxes](assets/images/readme-images/box-design03.png)
+
+
   - middle content can have 1, 2, 3, 4 and even 5 boxes in same line.
+
+![Middle page with 5 responsive boxes](assets/images/readme-images/5-boxes-middle-page.png)
+
   - easy to change the design of the title of each boxes just by selecting 
   the right CSS class.
 ![Middle page](assets/images/readme-images/middle-page02.png)
