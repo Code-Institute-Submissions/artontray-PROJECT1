@@ -393,7 +393,7 @@ To sum up :
 - I confirm that the navigation, header, footer and middle content are readable and easy to understand.
 - I confirm that the forms works requires entries in every field, will only accept an email in the email field, and the submit button works.
 
-[Back to top](<#contents>)
+[Back to top](<#contents>) 
 
 ### Unfixed Bugs
 
@@ -413,6 +413,22 @@ The site was deployed to GitHub pages. The steps to deploy a site are as follows
   4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - [Here](https://github.com/artontray/PROJECT1)
+
+* These commands were used for version control during project:
+
+    * git add `example filename` - to add files before committing
+    * git commit -m `"example message"` - to commit changes to the local repository
+    * git push - to push all committed changes to the GitHub repository
+
+## HOW TO FORK A REPOSITORY:
+
+If you need to "FORK" a repository:
+
+1. Login in to [GitHub](www.github.com) and go to https://github.com/artontray/PROJECT1
+2. In the top right corner, click `Fork`
+3. The next page will be the forked version of https://github.com/artontray/PROJECT1 but in your own repository
+
+
 
 # Credits 
 

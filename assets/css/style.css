@@ -1,30 +1,35 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');*/
 @font-face {
-        font-family: "Delius";
-        src: url("../fonts/Delius/Delius-Regular.ttf");
-      }
+  font-family: "Delius";
+  src: url("../fonts/Delius/Delius-Regular.ttf");
+}
+
 /******************************************************************************/
 /*-------------------------INITIALIZING THE PAGE----------------------------- */
 /******************************************************************************/
 *,
 *::before,
-*:after{
+*:after {
   margin: 0;
   padding-top: 2px;
 }
+
 /******************************************************************************/
 /*-------------------------BODY,HTML----------------------------------------- */
 /******************************************************************************/
-body,html{
+body,
+html {
   margin: 0;
   padding: 0;
-  font-family: Delius, Georgia, serif,Helvetica, Arial, sans-serif;
-  scroll-behavior: smooth;/* SCROLLING content PAGE SMOOTH */
+  font-family: Delius, Georgia, serif, Helvetica, Arial, sans-serif;
+  scroll-behavior: smooth;
+  /* SCROLLING content PAGE SMOOTH */
 }
+
 /******************************************************************************/
 /*-------------------------GENERAL VAR--------------------------------------- */
 /******************************************************************************/
-:root{
+:root {
   /*---------------MAIN COLORS OF THE WEBSITE---------------------------------*/
   --color-primary: #FFFFFF;
   --color-secondary: #E0F1FF;
@@ -35,7 +40,7 @@ body,html{
   --color-main-3: #97CFFF;
   --color-main-4: #7AC1FF;
   --color-main-5: #5FB4FF;
-  --color-main-6: hsl(240, 50%,70%);
+  --color-main-6: hsl(240, 50%, 70%);
   /*--------------HEIGHT OF THE MENU HEADER AND TOP OF THE MAIN PAGE----------*/
   --height-main: 170px;
   /*-------------SHADOW REFLECTION ON BOXES IN CENTRAL PAGE-------------------*/
@@ -47,24 +52,28 @@ body,html{
   --font-size-main: 18px;
   --font-size-titles: 20px;
   --font-size-copyright: 12px;
-  --blur-effect : blur(15px);
+  --blur-effect: blur(15px);
 }
+
 /******************************************************************************/
 /*-------------------------HEADER FIXED UP IN THE PAGE----------------------- */
 /******************************************************************************/
-#header{
+#header {
   background-color: var(--color-primary);
   width: 100%;
   top: 0;
-  position: fixed;/* header will stay fixed even scrolling*/
-  z-index: 100;/* all layer under 100 will appears under*/
+  position: fixed;
+  /* header will stay fixed even scrolling*/
+  z-index: 100;
+  /* all layer under 100 will appears under*/
   height: var(--height-main);
 }
+
 /******************************************************************************/
 /*-------------------------FIXED IMAGES ON  BOTH SIDE OF BODY---------------- */
 /******************************************************************************/
 body::after,
-body::before{
+body::before {
   content: '';
   position: fixed;
   height: 500px;
@@ -72,49 +81,57 @@ body::before{
   z-index: -1;
   bottom: 0;
 }
-body::after{
+
+body::after {
   right: 0;
   background-image: url('../images/image-right.png');
   overflow: hidden;
   background-repeat: no-repeat;
   background-position: right;
 }
-body::before{
+
+body::before {
   left: 0;
   background-image: url('../images/image-left.png');
   overflow: hidden;
   background-repeat: no-repeat;
 }
+
 /******************************************************************************/
 /*----------------NAVIGATION BAR INCLUDE LOGO AND MENU FIXED----------------- */
 /******************************************************************************/
-.navigation-bar{
+.navigation-bar {
   display: flex;
   align-items: center;
 }
-.navigation-bar img{
+
+.navigation-bar img {
   left: 0;
 }
+
 /******************************************************************************/
 /*------------------------------logo----------------------------------------- */
 /******************************************************************************/
-.logo{
+.logo {
   margin-right: auto;
 }
-.logo img{
+
+.logo img {
   width: var(--size-logo);
   height: auto;
 }
+
 /******************************************************************************/
 /*--------------------------MENU NAVIGATION ITEMS---------------------------- */
 /******************************************************************************/
-.menu{
-list-style-type: none;
-display: inline-flex;
-text-transform: uppercase;
+.menu {
+  list-style-type: none;
+  display: inline-flex;
+  text-transform: uppercase;
 }
+
 /*Menu Items*/
-.menu li a{
+.menu li a {
   text-decoration: none;
   font-size: var(--font-size-menu);
   padding: 8px 22px;
@@ -123,20 +140,23 @@ text-transform: uppercase;
   letter-spacing: 1px;
   color: var(--color-main-6);
 }
-.menu li a:hover{
-color: var(--color-main-5);
-filter: blur(.8px);
+
+.menu li a:hover {
+  color: var(--color-main-5);
+  filter: blur(.8px);
 }
+
 /*Active menu's page*/
-.active{
+.active {
   border-bottom: 3px solid var(--color-main-5);
   filter: blur(.5px);
 }
+
 /******************************************************************************/
 /*--------------------------FIRST VISUAL FIRST VISIT------------------------- */
 /******************************************************************************/
 /*big image with punchlines displayed with animation*/
-.main-media{
+.main-media {
   background: url('../images/main.png') no-repeat center center;
   height: 900px;
   width: 100%;
@@ -144,16 +164,18 @@ filter: blur(.8px);
   background-size: cover;
   position: relative;
 }
+
 /*punchlines with animation*/
 #punchline1,
 #punchline2,
-#punchline3{
+#punchline3 {
   text-transform: uppercase;
   letter-spacing: 2px;
   padding: 10px 20px;
   background: transparent;
   color: var(--color-secondary);
 }
+
 #punchline1 {
   font-size: 150%;
   bottom: 550px;
@@ -163,15 +185,18 @@ filter: blur(.8px);
   animation-duration: 2s;
   animation-fill-mode: forwards;
 }
-@keyframes animation-punchline1{
-  from{
+
+@keyframes animation-punchline1 {
+  from {
     transform: translateY(-100%);
-    filter:  blur(10px);
+    filter: blur(10px);
   }
-  to{
+
+  to {
     transform: translateY(100%);
   }
 }
+
 #punchline2 {
   font-size: 200%;
   bottom: 370px;
@@ -182,14 +207,17 @@ filter: blur(.8px);
   animation-fill-mode: forwards;
 
 }
-@keyframes animation-punchline2{
-  from{
+
+@keyframes animation-punchline2 {
+  from {
     filter: blur(10px);
   }
-  to{
+
+  to {
     filter: none;
   }
 }
+
 #punchline3 {
   font-size: 300%;
   bottom: 100px;
@@ -200,12 +228,14 @@ filter: blur(.8px);
   animation-duration: 3s;
   animation-fill-mode: forwards;
 }
-@keyframes animation-punchline3{
-  from{
+
+@keyframes animation-punchline3 {
+  from {
     transform: translateY(200%);
     filter: blur(10px);
   }
-  to{
+
+  to {
     transform: translateY(0%);
   }
 }
@@ -213,27 +243,34 @@ filter: blur(.8px);
 /******************************************************************************/
 /*----------------------------BOX MAIN MIDDLE PAGE--------------------------- */
 /******************************************************************************/
-.middle-content{
-  padding: calc(var(--height-main) + 30px) 15%; /*we start above fixed menu and give 15% padding both sides left and right*/
-  display: flex;                                /*content ON SAME LINE*/
-  justify-content: space-between;              /*SPACE BETWEEN EACH ELEMENT DIV*/
+.middle-content {
+  padding: calc(var(--height-main) + 30px) 15%;
+  /*we start above fixed menu and give 15% padding both sides left and right*/
+  display: flex;
+  /*content ON SAME LINE*/
+  justify-content: space-between;
+  /*SPACE BETWEEN EACH ELEMENT DIV*/
 }
+
 /******************************************************************************/
 /*--------------------LEFT, RIGHT BOX WITH STYLE------------------------------*/
 /******************************************************************************/
 .main-without-style,
-.main-with-style{
+.main-with-style {
   width: 100%;
 }
-.main-with-style{
+
+.main-with-style {
   background: var(--color-secondary);
   box-shadow: 0 0 var(--shadow-main) var(--color-black);
   border-radius: 22px;
 }
-.main-without-style{
+
+.main-without-style {
   background: transparent;
 
 }
+
 /******************************************************************************/
 /*----------------------------TITLES OF BOX RIGHT,LEFT AND CENTER------------ */
 /******************************************************************************/
@@ -242,37 +279,44 @@ filter: blur(.8px);
   font-size: var(--font-size-titles);
   padding: 30px 28px;
 }
-.title-left h1{
+
+.title-left h1 {
   text-align: left;
   border-bottom: 3px solid var(--color-main-5);
 }
-.title-right h1{
+
+.title-right h1 {
   text-align: right;
   border-bottom: 10px dotted var(--color-main-6);
 }
-.title-center h1{
+
+.title-center h1 {
   font-size: calc(var(--font-size-titles) + 80%);
   text-align: center;
 }
+
 /******************************************************************************/
 /*-------------------- CONTENTS INTO ANY BOX ------------------------------*/
 /******************************************************************************/
-.content{
+.content {
   font-weight: 400;
   font-size: var(--font-size-main);
   padding: 4px 4px;
   text-align: center;
 }
-.content li{
-list-style: none;
-font-size: var(--font-size-main);
-text-align: left;
+
+.content li {
+  list-style: none;
+  font-size: var(--font-size-main);
+  text-align: left;
 }
-.content ul li:hover{
-  color:var(--color-main-6);
+
+.content ul li:hover {
+  color: var(--color-main-6);
 }
-.content strong{
-  color:var(--color-main-6);
+
+.content strong {
+  color: var(--color-main-6);
   font-size: 18px;
   font-weight: bold;
 }
@@ -280,91 +324,107 @@ text-align: left;
 /******************************************************************************/
 /*--------------------ALL MEDIA CONTENT INTO ANY BOX -------------------------*/
 /******************************************************************************/
-.media img{
+.media img {
   border-radius: 32px;
   width: 100%;
   margin: 10px 0;
   box-shadow: 0px 5px 10px var(--color-black);
 }
-.media video{
+
+.media video {
   border-radius: 62px;
   width: 90%;
   height: auto;
   box-shadow: 10px 15px 5px var(--color-black);
 }
-.media{
+
+.media {
   text-align: center;
 }
-.partners img{
+
+.partners img {
   border-radius: 62px;
   width: 150px;
   height: 150px;
-padding-left: 5px;
-  
+  padding-left: 5px;
+
   box-shadow: 10px 15px 5px var(--color-black);
 }
-content.partners{
+
+content.partners {
   text-align: center;
 }
+
 /******************************************************************************/
 /*-----------------------------------FOOTER---------------------------------- */
 /******************************************************************************/
-footer{
+footer {
   bottom: 2px;
-  background-color: var(--color-white);   /* COLORING OF THE menu FOOTER */
+  background-color: var(--color-white);
+  /* COLORING OF THE menu FOOTER */
   width: 100%;
   background: transparent;
-  position: fixed;                        /* FOOTER WILL STAY BOTTOM LEFT EVEN SCROLLING*/
-  z-index: 100;                           /* ALL LAYER UNDER 100 WILL SHOW UNDER THIS FOOTER*/
-  height: 45px                            /* SIZE OF THE FOOTER BOX ON BOTTOM*/
+  position: fixed;
+  /* FOOTER WILL STAY BOTTOM LEFT EVEN SCROLLING*/
+  z-index: 100;
+  /* ALL LAYER UNDER 100 WILL SHOW UNDER THIS FOOTER*/
+  height: 45px
+    /* SIZE OF THE FOOTER BOX ON BOTTOM*/
 }
 
 /******************************************************************************/
 /*---------------------------copyrights-------------------------------------- */
 /******************************************************************************/
-.copyrights{
+.copyrights {
   background: transparent;
-  width:100%;
-  text-align:right;
-  font-size:var(--font-size-copyright);
-  padding-right:150px;
+  width: 100%;
+  text-align: right;
+  font-size: var(--font-size-copyright);
+  padding-right: 150px;
 }
+
 /******************************************************************************/
 /*---------------------------SOCIAL MEDIA ITEMS------------------------------ */
 /******************************************************************************/
-.social-items-area{
-  display:flex;
-  align-items:center;
-  width:100%;
+.social-items-area {
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
-.social-item img{
-  max-width:30px;
-  max-height:200px;
+
+.social-item img {
+  max-width: 30px;
+  max-height: 200px;
   border: 0px;
   background: transparent;
-  padding-left:10px;
-  padding-top:10px;
-  padding-bottom:10px;
-  padding-right:10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
 }
+
 /******************************************************************************/
 /*---------------------------INPUTS, P, TEXTAREA AND ASIDE------------------- */
 /******************************************************************************/
-textarea{
- resize: none;
+textarea {
+  resize: none;
 }
+
 input,
-textarea{
- font-family: inherit;
+textarea {
+  font-family: inherit;
 }
-p{
+
+p {
   text-align: justify;
 }
-aside{
+
+aside {
   font-weight: 400;
   font-style: italic;
   font-size: 12px;
 }
+
 /******************************************************************************/
 /*---------------------------PREMIUM OFFERS BOXES---------------------------- */
 /*  2 differents displays :
@@ -376,18 +436,20 @@ aside{
  - pro (pro class)
 /******************************************************************************/
 .premium-box-fixed,
-.premium-box{
-  display:flex;
-  width:90%;
+.premium-box {
+  display: flex;
+  width: 90%;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
 }
-.premium-box{
+
+.premium-box {
   transition: all 0.6s;
 }
+
 .premium-box-fixed .premium,
-.premium-box .premium{
+.premium-box .premium {
   border: 5px solid var(--color-main-6);
   width: 200px;
   text-align: center;
@@ -397,45 +459,53 @@ aside{
   margin-top: 10px;
   box-shadow: 0px 2px 10px 5px var(--color-black);
 }
-.premium-box-fixed .premium{
+
+.premium-box-fixed .premium {
   transform: scale(1.2);
 }
-.premium-box .premium.private{
+
+.premium-box .premium.private {
   transform: scale(0.7);
 }
-.premium-box .premium.business{
+
+.premium-box .premium.business {
   transform: scale(0.8);
 }
-.premium-box .premium.pro{
+
+.premium-box .premium.pro {
   background-color: var(--color-main-1);
   transform: scale(0.9);
 }
 
 .premium-box .premium .price,
-.premium-box-fixed .premium .price{
+.premium-box-fixed .premium .price {
   margin-bottom: 25px;
   text-align: center;
 }
+
 .premium-box .premium .price strong,
-.premium-box-fixed .premium .price strong{
+.premium-box-fixed .premium .price strong {
   font-size: 40px;
   margin-bottom: -5px;
   text-align: center;
-  font-weight:  800;
+  font-weight: 800;
   color: var(--color-main-6);
 }
-.premium-box .premium .features > *,
-.premium-box-fixed .premium .features > *{
+
+.premium-box .premium .features>*,
+.premium-box-fixed .premium .features>* {
   color: var(--color-main-black);
   padding: 8px 0;
   border-bottom: 1px solid var(--color-black);
   font-size: 12px;
 }
+
 /*last element of the list with no border-bottom*/
 .premium-box-fixed .premium .features div:last-child,
-.premium-box .premium .features div:last-child{
-    border-bottom: 0;
+.premium-box .premium .features div:last-child {
+  border-bottom: 0;
 }
+
 /******************************************************************************/
 /*--------------------PRESENTATION VERTICAL TIMELINE STYLE------------------- */
 /*  We use this presentation style for :
@@ -448,32 +518,40 @@ All items (presentation-item)on presentation timeline have :
 - a div for an image : presentation-image
 - a div for the content : presentation-content
 /******************************************************************************/
-.presentation{
+.presentation {
   margin: auto;
   flex-wrap: wrap;
   position: relative;
 }
+
 /*----------------------------THE LINE----------------------------------------*/
-.presentation::before{
+.presentation::before {
   content: '';
   position: absolute;
-  width: 2px;                                /*SIZE OF THE MIDDLE LINE*/
+  width: 2px;
+  /*SIZE OF THE MIDDLE LINE*/
   height: 100%;
   background-color: var(--color-main-6);
-  left: calc(50% - 1px);                     /*WE MAKE THE LINE MATCH WITH THE MIDDLE OF THE POINT*/
+  left: calc(50% - 1px);
+  /*WE MAKE THE LINE MATCH WITH THE MIDDLE OF THE POINT*/
 }
+
 /*----------------------------ELEMENTS ON BOTH SIDE with odd & even-----------*/
 /*----------------------------ELEMENT 1,3,5 etc on left side------------------*/
 /*----------------------------ELEMENT 2,4,6 etc on right side-----------------*/
-.presentation-item:nth-child(odd){
+.presentation-item:nth-child(odd) {
   padding-right: calc(50% + 30px);
 }
-.presentation-item:nth-child(even){
+
+.presentation-item:nth-child(even) {
   padding-left: calc(50% + 30px);
 }
-.presentation-item{
-  padding: 10% 0 0 5%; /*padding for each box item into presentation*/
+
+.presentation-item {
+  padding: 10% 0 0 5%;
+  /*padding for each box item into presentation*/
 }
+
 /*----------------------------A dot on the middle line for each item----------*/
 .presentation-point,
 .presentation-point-today,
@@ -485,24 +563,28 @@ All items (presentation-item)on presentation timeline have :
   left: calc(50% - 8px);
   border-radius: 50%;
 }
+
 /*For roadmap, current situation with a special item on the line*/
-.presentation-point-today{
+.presentation-point-today {
   background-color: transparent;
   color: var(--color-main-5);
   left: calc(50% - 22px);
 }
+
 /*Last dot on the presentation*/
-.presentation-point-end{
+.presentation-point-end {
   border-radius: 5%;
 }
 
 /*-------------------Titles of each box items --------------------------------*/
-.presentation-title,.presentation-title-today{
+.presentation-title,
+.presentation-title-today {
   text-align: center;
   line-height: 30px;
   font-size: 26px;
 }
-.presentation-title-today{
+
+.presentation-title-today {
   background-color: var(--color-main-5);
   width: 20%;
   padding-top: 10px;
@@ -512,37 +594,46 @@ All items (presentation-item)on presentation timeline have :
 }
 
 /*-------------------Content of each item of the presentation-----------------*/
-.presentation-content,.presentation-content-today{
+.presentation-content,
+.presentation-content-today {
   padding: 40px;
   border-radius: 32px;
 }
-.presentation-content h3,.presentation-content-today h3{
+
+.presentation-content h3,
+.presentation-content-today h3 {
   font-size: 28px;
-  margin:0 0 15px;
+  margin: 0 0 15px;
   text-transform: capitalize;
 }
-.presentation-content{
+
+.presentation-content {
   background-color: var(--color-main-1);
 }
+
 /*Different coloring for the box to focus on (Todays roadmap)*/
-.presentation-content-today{
+.presentation-content-today {
   background-color: var(--color-main-5);
 }
-.presentation-image img{
+
+.presentation-image img {
   border-radius: 50%;
   width: 200px;
   height: 200px;
 }
+
 /*Images of partners logo*/
-.presentation-content img{
-    border-radius: 22px;
-    width: 200px;
-    height: 200px;
+.presentation-content img {
+  border-radius: 22px;
+  width: 200px;
+  height: 200px;
 }
-.presentation-image{
+
+.presentation-image {
   text-align: center;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
+
 /******************************************************************************/
 /*---------------------------PAGE log-in.html ------------------------------- */
 /******************************************************************************/
@@ -564,47 +655,56 @@ All items (presentation-item)on presentation timeline have :
   animation-duration: 2s;
   animation-fill-mode: forwards;
 }
-@keyframes animation-suscribe-now{
-  from{
+
+@keyframes animation-suscribe-now {
+  from {
     transform: translateX(-100%);
     filter: blur(10px);
   }
-  to{
+
+  to {
     transform: translateX(-10%);
   }
 }
+
 /******************************************************************************/
 /*---------------------------FORMS FOR LOGIN AND SUSCRIBE PACKAGES----------- */
 /******************************************************************************/
-.form-main{
+.form-main {
   padding: 30px 15px;
   justify-content: center;
   align-items: center;
   display: flex;
   background: transparent;
 }
-.form-content{
+
+.form-content {
   width: 100%;
-  max-width: 550px;          /*WE MAINTAIN THIS SIZE FOR SMALLER SCREENS*/
+  max-width: 550px;
+  /*WE MAINTAIN THIS SIZE FOR SMALLER SCREENS*/
   position: relative;
 }
-.form-content h3{
+
+.form-content h3 {
   text-align: center;
   line-height: 1.2;
 }
+
 .form-content form,
-.form-content .input{
+.form-content .input {
   margin-bottom: 25px;
   text-align: center;
 }
+
 /*italic for all the placeholder content*/
-::placeholder{
-  font-style:italic;
+::placeholder {
+  font-style: italic;
   color: var(--color-black);
   line-height: 1.5;
   font-weight: 800;
 }
-.form-content .input-item{
+
+.form-content .input-item {
   display: block;
   height: 45px;
   width: 100%;
@@ -612,29 +712,34 @@ All items (presentation-item)on presentation timeline have :
   border: none;
   border-bottom: 1px solid var(--color-black);
 }
-.form-content .no-underline{
+
+.form-content .no-underline {
   border: none;
 }
 
 /*On focus we don't display the borders*/
-.form-content .input-item:focus{
+.form-content .input-item:focus {
   outline: none;
 }
+
 /*if links <a href... into the form then*/
-.box-form a{
+.box-form a {
   text-decoration: none;
 }
-.form-content .box-form{
+
+.form-content .box-form {
   background: transparent;
   padding: 2px 2px;
   border: 0;
 }
+
 /*Displaying inputs on same line*/
-.input_in_line{
+.input_in_line {
   display: inline-flex;
 }
+
 /*-------------------BUTTONS WITH STYLE-------------------------------------- */
-.button-submit{
+.button-submit {
   height: 45px;
   width: 100%;
   margin-top: 25px;
@@ -648,12 +753,14 @@ All items (presentation-item)on presentation timeline have :
   overflow: hidden;
   background: linear-gradient(to right, var(--color-main-5), var(--color-main-6));
 }
+
 /*-------------BUTTON FOR LOG IN WITH STYLE WHEN HOVER------------------------*/
-.button-submit:hover::before{
+.button-submit:hover::before {
   background: linear-gradient(to left, var(--color-main-5), var(--color-main-6));
   z-index: -1;
 }
-.button-submit::before{
+
+.button-submit::before {
   content: '';
   position: absolute;
   left: 0;
@@ -661,20 +768,24 @@ All items (presentation-item)on presentation timeline have :
   height: 100%;
   width: 100%;
 }
+
 /*-------------BUTTON CHECKBOX WITH STYLE-------------------------------------*/
-.input-checkbox{
+.input-checkbox {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 20px;
 }
-.input-checkbox-text{
+
+.input-checkbox-text {
   padding-left: 20px;
 }
-.input-checkbox-input:checked ~ .input-checkbox-slider::before{
+
+.input-checkbox-input:checked~.input-checkbox-slider::before {
   transform: translateX(calc(100% + 5px));
 }
-.input-checkbox-slider{
+
+.input-checkbox-slider {
   height: 30px;
   width: 50px;
   border: 1px solid var(--color-black);
@@ -682,7 +793,8 @@ All items (presentation-item)on presentation timeline have :
   border-radius: 15px;
   cursor: pointer;
 }
-.input-checkbox-slider::before{
+
+.input-checkbox-slider::before {
   content: '';
   position: absolute;
   left: 5px;
@@ -692,76 +804,84 @@ All items (presentation-item)on presentation timeline have :
   border-radius: 50%;
   background-color: var(--color-main-6);
 }
+
 /*background slider*/
-.input-checkbox-input:checked ~ .input-checkbox-slider{
+.input-checkbox-input:checked~.input-checkbox-slider {
   background: linear-gradient(to right, var(--color-main-2), var(--color-main-5));
   border: none;
 }
+
 /*We make dissapear the normal checkbox */
-.input-checkbox-input{
+.input-checkbox-input {
   opacity: 0;
 }
 
 /*-------------OFFERS CONTAINER FOR SUSCRIPTION PACKAGES----------------------*/
-.container-offers{
+.container-offers {
   width: auto;
   position: relative;
   background-size: cover;
   overflow: hidden;
 }
-.container-offers:hover .premium-box{
+
+.container-offers:hover .premium-box {
   transform: translateX(-100%);
 }
 
-.container-offers:hover .payment-box{
+.container-offers:hover .payment-box {
   transform: translateX(0%);
 }
+
 /*payment-box will appears when hover premium-box*/
-.payment-box{
-position: absolute;
-bottom: 0;
-left: 0;
-height: 100%;
-width: 100%;
-display: flex;
-flex-direction: column;
-transform: translateX(100%);
-transition: all 1s;
+.payment-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(100%);
+  transition: all 1s;
 }
 
 
 /*title of each offers*/
-.title-premium{
+.title-premium {
   font-size: 28px;
   font-weight: 800;
 }
+
 /******************************************************************************/
 /*---------------------------SCREEN ADAPTABILITY----------------------------- */
 /**header height AND middle-content padding-top SHOUDL BE THE SAME NUMBER SO
 BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
 /*---------------------------1500px SCREEN AND SMALLER----------------------- */
 /******************************************************************************/
-@media only screen and (max-width: 1500px){
-#punchline1{
-  display: none;
-}
-#punchline3 {
-  font-size: 100%;
-  top: 400px;
-  left: 30px;
-  position: absolute;
-}
-#punchline2 {
-  font-size: 100%;
-  top: 200px;
-  left: 0;
-  position: absolute;
-}
-/*Premium boxes offers on index.html reducing size*/
-.premium-box-fixed .premium{
-  width: 200px;
-  transform: scale(0.8);
-}
+@media only screen and (max-width: 1500px) {
+  #punchline1 {
+    display: none;
+  }
+
+  #punchline3 {
+    font-size: 100%;
+    top: 400px;
+    left: 30px;
+    position: absolute;
+  }
+
+  #punchline2 {
+    font-size: 100%;
+    top: 200px;
+    left: 0;
+    position: absolute;
+  }
+
+  /*Premium boxes offers on index.html reducing size*/
+  .premium-box-fixed .premium {
+    width: 200px;
+    transform: scale(0.8);
+  }
 }
 
 /******************************************************************************/
@@ -770,136 +890,166 @@ BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
 BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
 /*---------------------------1346px SCREEN AND SMALLER----------------------- */
 /******************************************************************************/
-@media only screen and (max-width: 1346px){
-/*RESIZE OF header*/
-  #header{
-  height: calc(var(--height-main) - 50px);/* SIZE OF THE NAV BOX ON TOP*/
+@media only screen and (max-width: 1346px) {
+
+  /*RESIZE OF header*/
+  #header {
+    height: calc(var(--height-main) - 50px);
+    /* SIZE OF THE NAV BOX ON TOP*/
   }
-/*-----Images on both side of the page dissapears------------------------*/
+
+  /*-----Images on both side of the page dissapears------------------------*/
   body::after,
-  body::before{
-    display:none;
+  body::before {
+    display: none;
   }
-  .navigation-bar{
-  padding: 10px 50px;
+
+  .navigation-bar {
+    padding: 10px 50px;
   }
-  .logo img{
+
+  .logo img {
     width: calc(var(--size-logo) - 70px);
   }
-  .middle-content{
-    padding-top: calc(var(--height-main) + 5px);   /*WE START ABOVE THE FIXED menu*/
-    flex-direction: column;                         /*we display boxes above to each other*/
+
+  .middle-content {
+    padding-top: calc(var(--height-main) + 5px);
+    /*WE START ABOVE THE FIXED menu*/
+    flex-direction: column;
+    /*we display boxes above to each other*/
     margin: 5px;
   }
+
   .main-with-style,
-  .main-without-style{
+  .main-without-style {
     width: 100%;
     border-radius: 22px;
   }
-  .content p{
+
+  .content p {
     font-size: calc(var(--font-size-main) - 4px);
     padding: 5px 5px;
   }
+
   .content ul li,
-  .presentation-content p{
+  .presentation-content p {
     font-size: 20px;
   }
+
   /*we display social media icon in line vertically*/
-  .social-items-area{
-  max-width: 200px;
-  display: grid;
+  .social-items-area {
+    max-width: 200px;
+    display: grid;
   }
-  footer{
-  bottom: 0;
-  display: grid;
-  height: 40%;
-  width: 50px; /*important! if width not specified all content with hover attribute will not work*/
-  background: transparent;
-  z-index: 0;
+
+  footer {
+    bottom: 0;
+    display: grid;
+    height: 40%;
+    width: 50px;
+    /*important! if width not specified all content with hover attribute will not work*/
+    background: transparent;
+    z-index: 0;
   }
-  .copyrights{
-  display: none;
+
+  .copyrights {
+    display: none;
   }
+
   /*Premium boxes offers on index.html reducing*/
   .premium-box-fixed .premium,
-  .premium-box-fixed .premium.pro{
+  .premium-box-fixed .premium.pro {
     width: 180px;
     transform: scale(0.8);
   }
+
   /*No more animation for display containers-offers, it will appears above*/
-  .container-offers:hover .premium-box{
+  .container-offers:hover .premium-box {
     transform: none;
   }
-  .premium-box{
+
+  .premium-box {
     display: flex;
     width: 90%;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
   }
+
   /*We make appears the payment box above */
-  .payment-box{
-  position: inherit;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  overflow: visible;
-  transform: translateX(0%);/*we display the box on visible area*/
+  .payment-box {
+    position: inherit;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: visible;
+    transform: translateX(0%);
+    /*we display the box on visible area*/
   }
-/******************************************************************************/
-/*---------------------------Presentation timeline style--------------------- */
-/******************************************************************************/
-/*------------BRING ALL BOXES OF presentation to left side--------------------*/
-  .presentation-item:nth-child(odd){
+
+  /******************************************************************************/
+  /*---------------------------Presentation timeline style--------------------- */
+  /******************************************************************************/
+  /*------------BRING ALL BOXES OF presentation to left side--------------------*/
+  .presentation-item:nth-child(odd) {
     padding-right: 0;
   }
-  .presentation-item:nth-child(even){
+
+  .presentation-item:nth-child(even) {
     padding-left: 0;
   }
+
   /*------------Image padding, radius and size--------------------*/
-  .presentation-image img{
+  .presentation-image img {
     padding-left: 50px;
-  
+
   }
-/*----------------DOTS DOES NOT SHOW------------------------------------------*/
+
+  /*----------------DOTS DOES NOT SHOW------------------------------------------*/
   .presentation-point,
   .presentation-point-today,
-  .presentation-point-end{
+  .presentation-point-end {
     display: none;
   }
-/*----------------THE LINE DOES NOT SHOW--------------------------------------*/
-  .presentation::before{
-  display: none;
+
+  /*----------------THE LINE DOES NOT SHOW--------------------------------------*/
+  .presentation::before {
+    display: none;
   }
+
   /*----------------REZIZING THE DATES----------------------------------------*/
   .presentation-title,
-  .presentation-title-today{
-    text-align:center;
-    font-size:20px;
+  .presentation-title-today {
+    text-align: center;
+    font-size: 20px;
   }
-/*----------------SOME SPACE BETWEEEN EACH ELEMENT ITEM-----------------------*/
-  .presentation-item{
-  padding : 50px 0;
-  width:100%;
+
+  /*----------------SOME SPACE BETWEEEN EACH ELEMENT ITEM-----------------------*/
+  .presentation-item {
+    padding: 50px 0;
+    width: 100%;
   }
+
   /*reducing the images*/
-.presentation-content img{
+  .presentation-content img {
     border-radius: 22px;
     width: 120px;
     height: 120px;
   }
 
 }
+
 /******************************************************************************/
 /*---------------------------SCREEN ADAPTABILITY----------------------------- */
 
 /*---------------------------850px HEIGHT ----------------------------------- */
 /******************************************************************************/
-@media only screen and (max-height: 850px){
+@media only screen and (max-height: 850px) {
+
   /*punchline suscribe now dissapears*/
-  #suscribe-now{
+  #suscribe-now {
     display: none;
   }
 }
@@ -911,95 +1061,125 @@ BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
 
 /*---------------------------860px SCREEN AND SMALLER------------------------ */
 /******************************************************************************/
-@media only screen and (max-width: 890px){
-  #header{
-  height: calc(var(--height-main) - 25px);/* SIZE OF THE NAV BOX ON TOP*/
+@media only screen and (max-width: 890px) {
+  #header {
+    height: calc(var(--height-main) - 25px);
+    /* SIZE OF THE NAV BOX ON TOP*/
   }
-  .navigation-bar{
+
+  .navigation-bar {
     flex-direction: column;
   }
-  .logo{
+
+  .logo {
     margin-right: 0;
   }
-  .middle-content{
-    padding-top: calc(var(--height-main) + 15px);;
+
+  .middle-content {
+    padding-top: calc(var(--height-main) + 15px);
+    ;
   }
+
   /*resizing menu items*/
   .menu li a,
-  .active{
+  .active {
     font-size: calc(var(--font-size-menu) - 50%);
     padding: 10px;
   }
-    /*WE DISPLAY premium OFFER DIFFERENTLY*/
+
+  /*WE DISPLAY premium OFFER DIFFERENTLY*/
   .premium-box .premium.private,
-  .premium-box .premium.pro{
-  transform: scale(0.8);
+  .premium-box .premium.pro {
+    transform: scale(0.8);
   }
+
   .premium-box,
-  .premium-box-fixed{
-  flex-direction: column;
+  .premium-box-fixed {
+    flex-direction: column;
 
   }
-/*ACTIVE BUTTON MENU Resizing and border top instead of border bottom*/
-  .active{
+
+  /*ACTIVE BUTTON MENU Resizing and border top instead of border bottom*/
+  .active {
     font-size: calc(var(--font-size-menu) - 50%);
     border-top: 3px solid var(--color-main-5);
     border-bottom: 0;
     filter: blur(.5px);
   }
+
+  /*punchline suscribe now dissapears*/
+  #suscribe-now {
+    display: none;
+  }
 }
+
 /******************************************************************************/
 /*---------------------------SCREEN ADAPTABILITY----------------------------- */
 
 /*---------------------------760px SCREEN AND SMALLER------------------------ */
 /******************************************************************************/
-@media only screen and (max-width: 760px){
-  #header{
-  height: calc(var(--height-main) - 90px);/* SIZE OF THE NAV BOX ON TOP*/
+@media only screen and (max-width: 760px) {
+  #header {
+    height: calc(var(--height-main) - 90px);
+    /* SIZE OF THE NAV BOX ON TOP*/
   }
-  .logo{
+
+  .logo {
     display: none;
   }
-  .middle-content{
-    padding-top: calc(var(--height-main) + 20px);/*WE START ABOVE THE FIXED menu*/
+
+  .middle-content {
+    padding-top: calc(var(--height-main) + 20px);
+    /*WE START ABOVE THE FIXED menu*/
 
   }
 }
+
 /******************************************************************************/
 /*---------------------------SCREEN ADAPTABILITY----------------------------- */
 
 /*---------------------------720px SCREEN AND SMALLER------------------------ */
 /******************************************************************************/
-@media only screen and (max-width: 720px){
-  #header{
-    height: calc(var(--height-main) - 60px);      /* SIZE OF THE NAV BOX ON TOP*/
+@media only screen and (max-width: 720px) {
+  #header {
+    height: calc(var(--height-main) - 60px);
+    /* SIZE OF THE NAV BOX ON TOP*/
   }
-  .middle-content{
-    padding-top: calc(var(--height-main) + 25px); /*WE START ABOVE THE FIXED menu*/
+
+  .middle-content {
+    padding-top: calc(var(--height-main) + 25px);
+    /*WE START ABOVE THE FIXED menu*/
     padding-left: 30px;
   }
-  .navigation-bar{
+
+  .navigation-bar {
     padding: 1px;
   }
+
   /*No displaying the slider */
-  .input-checkbox-slider{
+  .input-checkbox-slider {
     display: none
   }
+
   /*We display normal checkbox instead of slider */
-  .input-checkbox-input{
+  .input-checkbox-input {
     opacity: 1;
   }
-  .presentation-content,.presentation-content-today{
+
+  .presentation-content,
+  .presentation-content-today {
     padding: 15px;
   }
-  .presentation-title-today{
+
+  .presentation-title-today {
     font-size: 30px;
     border-radius: 0px;
     background-color: white;
   }
+
   /*Resizing content*/
   .content ul li,
-  .presentation-content p{
+  .presentation-content p {
     font-size: 14px;
   }
 }
