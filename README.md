@@ -384,6 +384,17 @@ After using [Panda Tiny png](https://tinypng.com/) and [Veed.io](https://www.vee
 ![Thanks Panda](assets/images/readme-images/after-compress.png)
 
 [Back to top](<#contents>)
+
+
+### To sum up
+To sum up :
+
+- I confirm that this project is responsive, looks good and functions on all standard screen sizes.
+- I confirm that the navigation, header, footer and middle content are readable and easy to understand.
+- I confirm that the forms works requires entries in every field, will only accept an email in the email field, and the submit button works.
+
+[Back to top](<#contents>)
+
 ### Unfixed Bugs
 
 The trailer shows up really small in small devices like Iphone 5. I would like to 
@@ -409,7 +420,7 @@ The live link can be found here - [Here](https://github.com/artontray/PROJECT1)
 
 * The font came from [Google Fonts](https://fonts.google.com/specimen/Delius?query=delius).
 * [Veed.io](https://www.veed.io/) was used to compress the video trailer.
-* The animation hovering box for payment came from [YouTube tutorial](https://www.youtube.com/watch?v=YM_f2fD7Yuk).
+* The animation hovering box for payment idea came from [YouTube tutorial](https://www.youtube.com/watch?v=YM_f2fD7Yuk).
 * The vertical Timeline idea came from [YouTube tutorial](https://www.youtube.com/watch?v=L9W33EuGjoY&t=345s).
 * The Custom Checkbox idea came from [YouTube tutorial](https://www.youtube.com/watch?v=PuoCczjlj1s&t=15s).
 * [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes.
