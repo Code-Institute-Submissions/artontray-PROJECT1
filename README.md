@@ -313,7 +313,10 @@ a food cost price and digital recipe. Very ambitious!
 
 ## Am I responsive Website?
 Yes, I am!
-- The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+- The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive design checker](https://www.responsivedesignchecker.com/)
+
+- Responsive test from https://ui.dev/amiresponsive :
+
 ![Responsive test from https://ui.dev/amiresponsive](assets/images/readme-images/Visual-am-i-responsive.png)
 
 [Back to top](<#contents>)
@@ -343,14 +346,17 @@ The HTML validator results for each page are below:
   [CSS Validator](https://jigsaw.w3.org/).
   Some Warnings shows up at the beginning but easily fixed.
 
-![style.css](assets/images/readme-images/css-checker.png.png)
+![style.css](assets/images/readme-images/css-checker.png)
+
 [Back to top](<#contents>)
 ## Browser Compatibility
 
 The website was tested on the following browsers with no visible issues for the user :
 - Google Chrome
 - Mozilla Firefox. 
+
 [Back to top](<#contents>)
+
 ## Lighthouse
 The site was also tested using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) 
 in Chrome Developer Tools to test each of the pages for:
@@ -363,8 +369,7 @@ My first try was surprising : Very slow to load
 ![Bad perf.](assets/images/readme-images/bad-perf.png)
 
 This part of the testing process showed up that the site was slow to load, mainly due to 
-the image sizes. All the images needed to be compressed before adding to the repository.
-Once this was done the performance went from ~60% to ~90%. 
+the image sizes and video trailer. All the images/videos needed to be compressed before adding to the repository.
 
 - Thanks [Panda!](https://tinypng.com/)
 
@@ -374,16 +379,16 @@ and thanks [Veed.io](https://www.veed.io/) :
 
 ![Thanks Panda](assets/images/readme-images/video-compress.png)
 
-After using [Panda Tiny png](https://tinypng.com/) :
+After using [Panda Tiny png](https://tinypng.com/) and [Veed.io](https://www.veed.io/) :
 
 ![Thanks Panda](assets/images/readme-images/after-compress.png)
 
 [Back to top](<#contents>)
 ### Unfixed Bugs
 
-The trailer shows up really small in small devices like Iphone 5,6. I would like to 
+The trailer shows up really small in small devices like Iphone 5. I would like to 
 add a possibility to put full screen display but it seems I need Javascript
-to fix that. [Sources](https://stackoverflow.com/questions/27768320/html5-video-double-click-to-go-full-screen)
+to fix that. [Check this link](https://stackoverflow.com/questions/27768320/html5-video-double-click-to-go-full-screen)
 
 [Back to top](<#contents>)
 
@@ -415,7 +420,7 @@ The live link can be found here - [Here](https://github.com/artontray/PROJECT1)
 * Some Food Pictures came from [Google Images](https://www.google.com/maps).
 * Icons for social media came from [Google Images](https://www.google.com/maps).
 * Some Icons came from [Font Awesome](https://fontawesome.com/).
-* First loading picture came from [Google Images](https://www.pexels.com/).
+* First loading picture came from [Pexels Images](https://www.pexels.com/).
 
 [Back to top](<#contents>)
 
@@ -433,7 +438,7 @@ To be honest, best parts of my learning progress are the following :
 [Back to top](<#contents>)
 # Acknowledgements
 The site was completed as a Portfolio 1 Project for the Full Stack Software Developer Diploma at the [Code Institute](https://codeinstitute.net/).
-As such I would like to thank the web in general for beeing such a open library for learning, the Slack community for the retro-active attitude.
+As such I would like to thank the web in general for beeing such a open library for learning, the Slack community for the good vibes and help.
 
 This material has been prepared for educational purposes only and is not intended to provide any offer or service.
 
