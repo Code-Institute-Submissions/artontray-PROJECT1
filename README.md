@@ -163,6 +163,7 @@ who works in food industry. The main page is composed by three sections :
   - A small list of questions which FOOD COST can answers.
 
 ![Situation section](assets/images/readme-images/situation.png)
+
 [Back to top](<#contents>)
 
   * ### Trailer
@@ -325,12 +326,19 @@ My first try was surprising : Very slow to load
 This part of the testing process showed up that the site was slow to load, mainly due to 
 the image sizes. All the images needed to be compressed before adding to the repository.
 Once this was done the performance went from ~60% to ~90%. 
+
 - Thanks [Panda!](https://tinypng.com/)
+
 ![Thanks Panda](assets/images/readme-images/thanks-panda.png)
+
 and thanks [Veed.io](https://www.veed.io/) :
+
 ![Thanks Panda](assets/images/readme-images/video-compress.png)
+
 After using [Panda Tiny png](https://tinypng.com/) :
+
 ![Thanks Panda](assets/images/readme-images/after-compress.png)
+
 [Back to top](<#contents>)
 ### Unfixed Bugs
 
