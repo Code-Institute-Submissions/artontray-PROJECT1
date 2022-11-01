@@ -44,6 +44,7 @@ This ambitious project aims to help small entrepreneurs in food industry
     * [**Suscribe**](<#suscribe>)
          * suscribe form and "Any question form"
          * Any questions form
+    * [**Submitted form**](<#submitted-form>)        
     * [**To sum up**](<#to-sum-up>)
     * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
@@ -273,6 +274,23 @@ and select premium package of your choice.
 ![Offers and payment form on same page](assets/images/readme-images/suscribe02.png)
 
 [Back to top](<#contents>)
+
+## Submitted form
+
+An extra page called `submitted.html` has been created to inform users that forms are correctly filled.
+
+- Every correctly submitted forms of the website will load this extra page just to inform that 
+the form has been correctly filled and the information will be transmitted.
+
+![Submitted forms](assets/images/readme-images/submitted.png)
+
+A meta refresh is used to load home page after 5 secondes.
+
+![Submitted forms](assets/images/readme-images/refresh.png)
+
+[Back to top](<#contents>)
+
+
 
 ## To sum up
 
