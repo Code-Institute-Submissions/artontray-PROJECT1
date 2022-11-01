@@ -22,14 +22,14 @@ This ambitious project aims to help small entrepreneurs in food industry
     * [Site Structure](<#site-structure>)
     * [Design Choices](<#design-choices>)
     *   [Typography](<#typography>)
-    *   [Color Scheme](<#color-scheme>)
+    *   [Color Scheme](<#colour-scheme>)
 * [**Features**](<#features>)
     * [**Body**](<#body>)
          * [Navigation Bar](<#navigation-bar>)
          * [Middle Page](<#middle-page>)
          * [Footer](<#footer>)
     * [**Home**](<#home-section>)
-         * [Landing page](<#landing-page>)
+         * [Loading page](<#loading-page>)
          * [situation](<#situation>)
          * [Are you in this situation?](<#are-you-in-this-situation?>)
          * [Trailer](<#Trailer>)
@@ -110,7 +110,7 @@ from the up navigation menu.
 This website is intended for small or private entrepreneurs 
 who works in food industry. The main page is composed by three sections :
 * ## Body
-  * ### Navigation bar
+   ### Navigation bar
   - Featured on all three pages, the full responsive navigation bar includes 
   links to the Logo, Home page, Partners and Suscribe page and is 
   identical in each page to allow an easy navigation.
@@ -120,7 +120,7 @@ who works in food industry. The main page is composed by three sections :
 
 ![Navigation Header](assets/images/readme-images/menu-navigation.png)
 [Back to top](<#contents>)
-  * ### Middle Page
+   ### Middle Page
 
 
   From the beginning, i wanted to have a very flexible middle page.
@@ -137,7 +137,7 @@ who works in food industry. The main page is composed by three sections :
 ![Middle page on smaller screen](assets/images/readme-images/middle-page01.png)
 
 [Back to top](<#contents>)
-  * ### Footer
+   ### Footer
   - The footer contains social media links (left side) and copyrights area (right side).
   This section is fixed and it will allow the user to comunicate with the team from anywhere in the website.
   The links will open to a new tab to allow easy navigation for the user.
@@ -146,12 +146,12 @@ who works in food industry. The main page is composed by three sections :
 [Back to top](<#contents>)
 
 * ## Home Section
-  * ### Landing page
+  * ### Loading page
 
-  - The landing page includes an image with catching animation
+  - The loading page includes an image with catching animation
    to grab users attention ('punchlines').
    
-![Landing Page](assets/images/readme-images/landing-page.png)
+![Loading Page](assets/images/readme-images/loading-page.png)
 [Back to top](<#contents>)
   * ### Situation
 
@@ -170,7 +170,7 @@ who works in food industry. The main page is composed by three sections :
   Contains a video "trailer" :
    - I wanted to highlights the possibilities of the FOOD COST app in
   less than 1 minut.
-   - The trailer is accesible directly after scrolling down the landing page. This section is 
+   - The trailer is accesible directly after scrolling down the loading page. This section is 
   valuable as it encourages the user to have a dynamic view of the app's features in less than 1 minut.
   
   ![Trailer](assets/images/readme-images/trailer.png)
@@ -376,7 +376,7 @@ The live link can be found here - [Here](https://github.com/artontray/PROJECT1)
 * Some Food Pictures came from [Google Images](https://www.google.com/maps).
 * Icons for social media came from [Google Images](https://www.google.com/maps).
 * Some Icons came from [Font Awesome](https://fontawesome.com/).
-* First landing picture came from [Google Images](https://www.pexels.com/).
+* First loading picture came from [Google Images](https://www.pexels.com/).
 
 [Back to top](<#contents>)
 
