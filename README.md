@@ -53,7 +53,7 @@ This ambitious project aims to help small entrepreneurs in food industry
      * HTML / CSS Validator
      * Browser Compatibility
      * Lighthouse
-     * Unfixed Bugs
+     * Bugs
 * [**Deployment**](<#deployment>)
 * [**Credits**](<#credits>)
     * [**Content**](<#content>)
@@ -331,7 +331,7 @@ a food cost price and digital recipe. Very ambitious!
 
 ## Am I responsive Website?
 Yes, I am!
-- The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive design checker](https://www.responsivedesignchecker.com/)
+- The responsive design tests were carried out on Iphones, Samsung Galaxy S8+, Ipad Air and Surface Pro 7 with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and also on [Responsive design checker](https://www.responsivedesignchecker.com/).
 
 - Responsive test from https://ui.dev/amiresponsive :
 
@@ -342,13 +342,6 @@ Yes, I am!
 ## HTML / CSS VALIDATOR
 
 ### HTML
-  The website site has been tested through the 
-  [W3C html Validator](https://validator.w3.org/).
-  Some Warnings shows up at the beginning but easily fixed.
-
-  ![Warning HTML](assets/images/readme-images/warning-html.png)
-  ![Warning HTML](assets/images/readme-images/warning-html02.png)
-
 
 The HTML validator results for each page are below:
 - index.html :
@@ -371,7 +364,10 @@ The HTML validator results for each page are below:
 
 The website was tested on the following browsers with no visible issues for the user :
 - Google Chrome
-- Mozilla Firefox. 
+- Mozilla Firefox
+- Safari
+
+Appearance, functionality and responsiveness were consistent throughout for a range of device sizes and browsers.
 
 [Back to top](<#contents>)
 
@@ -413,7 +409,18 @@ To sum up :
 
 [Back to top](<#contents>) 
 
-### Unfixed Bugs
+### Bugs
+
+## Fixed Bug
+
+  The website site has been tested through the 
+  [W3C html Validator](https://validator.w3.org/).
+  Some Warnings shows up at the beginning but easily fixed.
+
+  ![Warning HTML](assets/images/readme-images/warning-html.png)
+  ![Warning HTML](assets/images/readme-images/warning-html02.png)
+
+## Unfixed Bug
 
 The trailer shows up really small in small devices like Iphone 5. I would like to 
 add a possibility to put full screen display but it seems I need Javascript
@@ -423,22 +430,19 @@ to fix that. [Check this link](https://stackoverflow.com/questions/27768320/html
 
 # Deployment
 
-### **To deploy the project**
+### To deploy the project :
 The site was deployed to GitHub pages. The steps to deploy a site are as follows:
   1. In the GitHub repository, navigate to the **Settings** tab.
   2. Once in Settings, navigate to the **Pages** tab on the left hand side.
   3. Under **Source**, select the branch to **master**, then click **save**.
   4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
+
+![To deploy](assets/images/readme-images/deploy.png)
+
 The live link can be found here - [Here](https://github.com/artontray/PROJECT1)
 
-* These commands were used for version control during project:
-
-    * git add `example filename` - to add files before committing
-    * git commit -m `"example message"` - to commit changes to the local repository
-    * git push - to push all committed changes to the GitHub repository
-
-## HOW TO FORK A REPOSITORY:
+## how to fork a repository :
 
 If you need to "FORK" a repository:
 
@@ -446,7 +450,28 @@ If you need to "FORK" a repository:
 2. In the top right corner, click `Fork`
 3. The next page will be the forked version of https://github.com/artontray/PROJECT1 but in your own repository
 
+![Fork](assets/images/readme-images/fork.png)
+
 [Back to top](<#contents>)
+
+
+### How to create a local clone of this project :
+
+The method from cloning a project from GitHub is below:
+
+1. Under the repository’s name, click on the **code** tab.
+2. In the **Clone with HTTPS** section, click on the clipboard icon to copy the given URL.
+
+![To Clone](assets/images/readme-images/clone.png)
+
+3. In your IDE of choice, open **Git Bash**.
+4. Change the current working directory to the location where you want the cloned directory to be made.
+5. Type **git clone**, and then paste the URL copied from GitHub.
+6. Press **enter** and the local clone will be created.
+
+[Back to top](<#contents>)
+
+
 
 # Credits 
 

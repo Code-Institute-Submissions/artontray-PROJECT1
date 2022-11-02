@@ -4,9 +4,7 @@
   src: url("../fonts/Delius/Delius-Regular.ttf");
 }
 
-/******************************************************************************/
 /*-------------------------INITIALIZING THE PAGE----------------------------- */
-/******************************************************************************/
 *,
 *::before,
 *:after {
@@ -14,9 +12,7 @@
   padding-top: 2px;
 }
 
-/******************************************************************************/
 /*-------------------------BODY,HTML----------------------------------------- */
-/******************************************************************************/
 body,
 html {
   margin: 0;
@@ -26,9 +22,8 @@ html {
   /* SCROLLING content PAGE SMOOTH */
 }
 
-/******************************************************************************/
+
 /*-------------------------GENERAL VAR--------------------------------------- */
-/******************************************************************************/
 :root {
   /*---------------MAIN COLORS OF THE WEBSITE---------------------------------*/
   --color-primary: #FFFFFF;
@@ -55,9 +50,7 @@ html {
   --blur-effect: blur(15px);
 }
 
-/******************************************************************************/
 /*-------------------------HEADER FIXED UP IN THE PAGE----------------------- */
-/******************************************************************************/
 #header {
   background-color: var(--color-primary);
   width: 100%;
@@ -69,9 +62,8 @@ html {
   height: var(--height-main);
 }
 
-/******************************************************************************/
+
 /*-------------------------FIXED IMAGES ON  BOTH SIDE OF BODY---------------- */
-/******************************************************************************/
 body::after,
 body::before {
   content: '';
@@ -97,9 +89,7 @@ body::before {
   background-repeat: no-repeat;
 }
 
-/******************************************************************************/
 /*----------------NAVIGATION BAR INCLUDE LOGO AND MENU FIXED----------------- */
-/******************************************************************************/
 .navigation-bar {
   display: flex;
   align-items: center;
@@ -109,9 +99,7 @@ body::before {
   left: 0;
 }
 
-/******************************************************************************/
-/*------------------------------logo----------------------------------------- */
-/******************************************************************************/
+/*------------------------------LOGO----------------------------------------- */
 .logo {
   margin-right: auto;
 }
@@ -121,9 +109,7 @@ body::before {
   height: auto;
 }
 
-/******************************************************************************/
 /*--------------------------MENU NAVIGATION ITEMS---------------------------- */
-/******************************************************************************/
 .menu {
   list-style-type: none;
   display: inline-flex;
@@ -152,9 +138,7 @@ body::before {
   filter: blur(.5px);
 }
 
-/******************************************************************************/
-/*--------------------------FIRST VISUAL FIRST VISIT------------------------- */
-/******************************************************************************/
+/*--------------------------LOADING PAGE------------------------- */
 /*big image with punchlines displayed with animation*/
 .main-media {
   background: url('../images/main.png') no-repeat center center;
@@ -240,26 +224,21 @@ body::before {
   }
 }
 
-/******************************************************************************/
 /*----------------------------BOX MAIN MIDDLE PAGE--------------------------- */
-/******************************************************************************/
 .middle-content.first {
   padding-top: calc(var(--height-main) + 30px);
 }
+
 .middle-content {
   padding: 5px 15%;
   /*we start above fixed menu and give 15% padding both sides left and right*/
   display: flex;
   /*content ON SAME LINE*/
   justify-content: space-between;
-  /*SPACE BETWEEN EACH ELEMENT DIV*/
-
   padding-bottom: 40px;
 }
 
-/******************************************************************************/
 /*--------------------LEFT, RIGHT BOX WITH STYLE------------------------------*/
-/******************************************************************************/
 .main-without-style,
 .main-with-style {
   width: 100%;
@@ -271,17 +250,13 @@ body::before {
   background: var(--color-secondary);
   box-shadow: 0 0 var(--shadow-main) var(--color-black);
   border-radius: 22px;
-
 }
 
 .main-without-style {
   background: transparent;
-
 }
 
-/******************************************************************************/
 /*----------------------------TITLES OF BOX RIGHT,LEFT AND CENTER------------ */
-/******************************************************************************/
 .title {
   font-weight: 300;
   font-size: var(--font-size-titles);
@@ -303,9 +278,7 @@ body::before {
   text-align: center;
 }
 
-/******************************************************************************/
 /*-------------------- CONTENTS INTO ANY BOX ------------------------------*/
-/******************************************************************************/
 .content {
   font-weight: 400;
   font-size: var(--font-size-main);
@@ -319,6 +292,10 @@ body::before {
   text-align: left;
 }
 
+.content ul {
+  padding-left: 0;
+}
+
 .content ul li:hover {
   color: var(--color-main-6);
 }
@@ -329,9 +306,7 @@ body::before {
   font-weight: bold;
 }
 
-/******************************************************************************/
 /*--------------------ALL MEDIA CONTENT INTO ANY BOX -------------------------*/
-/******************************************************************************/
 .media img {
   border-radius: 32px;
   width: 100%;
@@ -340,10 +315,7 @@ body::before {
 }
 
 .media video {
-  border-radius: 62px;
-  width: 90%;
-  height: auto;
-  box-shadow: 10px 15px 5px var(--color-black);
+  width: 100%;
 }
 
 .media {
@@ -351,73 +323,34 @@ body::before {
 }
 
 .partners img {
-  border-radius: 62px;
-  width: 150px;
-  height: 150px;
-  padding-left: 5px;
-
-  box-shadow: 10px 15px 5px var(--color-black);
+  width: 200px;
+  height: 200px;
+  padding: 55px 55px;
 }
 
 content.partners {
   text-align: center;
 }
 
-/******************************************************************************/
-/*-----------------------------------FOOTER---------------------------------- */
-/******************************************************************************/
-footer {
-  bottom: 2px;
+
+/*---------------------------FOOTER------------------------------ */
+.footer {
   background-color: var(--color-white);
-  /* COLORING OF THE menu FOOTER */
-  width: 100%;
-  position: fixed;
-  /* FOOTER WILL STAY BOTTOM LEFT EVEN SCROLLING*/
-  z-index: 100;
-  /* ALL LAYER UNDER 100 WILL SHOW UNDER THIS FOOTER*/
-  height: 45px
-    /* SIZE OF THE FOOTER BOX ON BOTTOM*/
+  text-align: center;
 }
 
-.footer-email{
-text-align: center;
-width:100%;
-font-size: 12px;
-}
-/******************************************************************************/
-/*---------------------------copyrights-------------------------------------- */
-/******************************************************************************/
-.copyrights {
-  background: transparent;
-  width: 20%;
-  text-align: right;
-  font-size: var(--font-size-copyright);
-  padding-right: 150px;
-}
-
-/******************************************************************************/
-/*---------------------------SOCIAL MEDIA ITEMS------------------------------ */
-/******************************************************************************/
-.social-items-area {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-
-.social-item img {
-  max-width: 30px;
-  max-height: 200px;
-  border: 0px;
-  background: transparent;
-  padding-left: 10px;
-  padding-top: 10px;
+footer p {
+  text-align: center;
   padding-bottom: 10px;
-  padding-right: 10px;
 }
 
-/******************************************************************************/
+footer img {
+  width: 30px;
+  height: 30px;
+  padding: 15px;
+}
+
 /*---------------------------INPUTS, P, TEXTAREA AND ASIDE------------------- */
-/******************************************************************************/
 textarea {
   resize: none;
 }
@@ -437,17 +370,9 @@ aside {
   font-size: 12px;
 }
 
-/******************************************************************************/
 /*---------------------------PREMIUM OFFERS BOXES---------------------------- */
-/*  2 differents displays :
- - fixed (premium-box-fixed) : index.html
- - with hover attribute display animation (premium-box) : log-in.html
-  Both have 3 offers  :
- - Private (private class)
- - Business (business class)
- - pro (pro class)
-/******************************************************************************/
-.premium-box-fixed{
+
+.premium-box-fixed {
   display: flex;
   width: 90%;
   justify-content: space-between;
@@ -455,8 +380,7 @@ aside {
   padding: 20px;
 }
 
-
-.premium-box-fixed .premium{
+.premium-box-fixed .premium {
   border: 5px solid var(--color-main-6);
   width: 200px;
   text-align: center;
@@ -470,7 +394,6 @@ aside {
 .premium-box-fixed .premium {
   transform: scale(1.1);
 }
-
 
 .premium-box-fixed .premium .price {
   margin-bottom: 25px;
@@ -494,22 +417,17 @@ aside {
 }
 
 /*last element of the list with no border-bottom*/
-.premium-box-fixed .premium .features div:last-child{
+.premium-box-fixed .premium .features div:last-child {
   border-bottom: 0;
 }
 
-/******************************************************************************/
+/*title of each offers*/
+.title-premium {
+  font-size: 28px;
+  font-weight: 800;
+}
+
 /*--------------------PRESENTATION VERTICAL TIMELINE STYLE------------------- */
-/*  We use this presentation style for :
-- partners (partners.html)
-- team (index.html)
-- roadmap (index.html)
-All items (presentation-item)on presentation timeline have :
-- a div representing a dot : presentation-point
-- a div for a title of the item : presentation-title
-- a div for an image : presentation-image
-- a div for the content : presentation-content
-/******************************************************************************/
 .presentation {
   margin: auto;
   flex-wrap: wrap;
@@ -521,16 +439,15 @@ All items (presentation-item)on presentation timeline have :
   content: '';
   position: absolute;
   width: 2px;
-  /*SIZE OF THE MIDDLE LINE*/
+  /*size of the middle line*/
   height: 100%;
   background-color: var(--color-main-6);
   left: calc(50% - 1px);
-  /*WE MAKE THE LINE MATCH WITH THE MIDDLE OF THE POINT*/
 }
 
-/*----------------------------ELEMENTS ON BOTH SIDE with odd & even-----------*/
-/*----------------------------ELEMENT 1,3,5 etc on left side------------------*/
-/*----------------------------ELEMENT 2,4,6 etc on right side-----------------*/
+/*---ELEMENTS ON BOTH SIDE with odd & even-----------*/
+/*---ELEMENT 1,3,5 etc on left side------------------*/
+/*---ELEMENT 2,4,6 etc on right side-----------------*/
 .presentation-item:nth-child(odd) {
   padding-right: calc(50% + 30px);
 }
@@ -541,10 +458,9 @@ All items (presentation-item)on presentation timeline have :
 
 .presentation-item {
   padding: 10% 0 0 5%;
-  /*padding for each box item into presentation*/
 }
 
-/*----------------------------A dot on the middle line for each item----------*/
+/*--------A dot on the middle line for each item----------*/
 .presentation-point,
 .presentation-point-today,
 .presentation-point-end {
@@ -626,42 +542,9 @@ All items (presentation-item)on presentation timeline have :
   justify-content: space-between;
 }
 
-/******************************************************************************/
-/*---------------------------PAGE log-in.html ------------------------------- */
-/******************************************************************************/
-/*-------------------Punchline suscribe Now with animation--------------------*/
-#suscribe-now {
-  text-align: center;
-  vertical-align: center;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  border-radius: 50px;
-  padding: 10px 20px;
-  background: transparent;
-  color: #000;
-  font-size: 150%;
-  bottom: 50px;
-  left: 500px;
-  position: absolute;
-  animation-name: animation-suscribe-now;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-}
 
-@keyframes animation-suscribe-now {
-  from {
-    transform: translateX(-100%);
-    filter: blur(10px);
-  }
 
-  to {
-    transform: translateX(-10%);
-  }
-}
-
-/******************************************************************************/
-/*---------------------------FORMS FOR LOGIN AND SUSCRIBE PACKAGES----------- */
-/******************************************************************************/
+/*--------------------FORMS FOR LOGIN AND SUSCRIBE OFFERS----------- */
 .form-main {
   padding: 30px 15px;
   justify-content: center;
@@ -693,7 +576,6 @@ All items (presentation-item)on presentation timeline have :
   font-style: italic;
   color: var(--color-black);
   line-height: 1.5;
-  font-weight: 800;
 }
 
 .form-content .input-item {
@@ -714,7 +596,6 @@ All items (presentation-item)on presentation timeline have :
   outline: none;
 }
 
-/*if links <a href... into the form then*/
 .box-form a {
   text-decoration: none;
 }
@@ -742,7 +623,6 @@ All items (presentation-item)on presentation timeline have :
   background: linear-gradient(to right, var(--color-main-5), var(--color-main-6));
 }
 
-/*-------------BUTTON FOR LOG IN WITH STYLE WHEN HOVER------------------------*/
 .button-submit:hover::before {
   background: linear-gradient(to left, var(--color-main-5), var(--color-main-6));
   z-index: -1;
@@ -806,18 +686,9 @@ All items (presentation-item)on presentation timeline have :
 
 
 
-/*title of each offers*/
-.title-premium {
-  font-size: 28px;
-  font-weight: 800;
-}
-
-/******************************************************************************/
 /*---------------------------SCREEN ADAPTABILITY----------------------------- */
-/**header height AND middle-content padding-top SHOUDL BE THE SAME NUMBER SO
-BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
 /*---------------------------1500px SCREEN AND SMALLER----------------------- */
-/******************************************************************************/
+
 @media only screen and (max-width: 1500px) {
   #punchline1 {
     display: none;
@@ -837,27 +708,23 @@ BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
     position: absolute;
   }
 
-  /*Premium boxes offers on index.html reducing size*/
+  /*Premium boxes reducing size*/
   .premium-box-fixed .premium {
     transform: scale(0.9);
   }
 }
 
-/******************************************************************************/
-/*---------------------------SCREEN ADAPTABILITY----------------------------- */
-/**header height AND middle-content padding-top SHOUDL BE THE SAME NUMBER SO
-BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
-/*---------------------------1346px SCREEN AND SMALLER----------------------- */
-/******************************************************************************/
+
+/*---------------------------1346px SCREEN AND SMALLER-------------- */
+
 @media only screen and (max-width: 1346px) {
 
-  /*RESIZE OF header*/
+  /*Rezise of header*/
   #header {
     height: calc(var(--height-main) - 50px);
-    /* SIZE OF THE NAV BOX ON TOP*/
   }
 
-  /*-----Images on both side of the page dissapears------------------------*/
+  /*-----Images on both side of the page dissapears-----------------*/
   body::after,
   body::before {
     display: none;
@@ -872,9 +739,10 @@ BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
   }
 
   .middle-content.first {
-    /*WE START ABOVE THE FIXED menu*/
+    /*we start above the fixed menu*/
     padding-top: calc(var(--height-main) + 5px);
   }
+
   .middle-content {
     padding: 5px 5%;
     /*WE START ABOVE THE FIXED menu*/
@@ -889,7 +757,6 @@ BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
     justify-content: space-between;
     padding-bottom: 10px;
   }
-  
 
   .content p {
     font-size: calc(var(--font-size-main) - 4px);
@@ -901,34 +768,7 @@ BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
     font-size: 20px;
   }
 
-  /*we display social media icon in line vertically*/
-  .social-items-area {
-    max-width: 200px;
-    display: grid;
-  }
-
-  footer {
-    bottom: 0;
-    display: grid;
-    height: 40%;
-    width: 50px;
-    /*important! if width not specified all content with hover attribute will not work*/
-    background: transparent;
-    z-index: 0;
-  }
-
-  .copyrights {
-    display: none;
-  }
-
-
-
-
-
-  /******************************************************************************/
-  /*---------------------------Presentation timeline style--------------------- */
-  /******************************************************************************/
-  /*------------BRING ALL BOXES OF presentation to left side--------------------*/
+  /*----------Presentation timeline style------------- */
   .presentation-item:nth-child(odd) {
     padding-right: 0;
   }
@@ -937,32 +777,26 @@ BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
     padding-left: 0;
   }
 
-  /*------------Image padding, radius and size--------------------*/
-  .presentation-image img {
-    padding-left: 50px;
 
-  }
-
-  /*----------------DOTS DOES NOT SHOW------------------------------------------*/
+  /*----------------Dots not shows anymore------------*/
   .presentation-point,
   .presentation-point-today,
   .presentation-point-end {
     display: none;
   }
 
-  /*----------------THE LINE DOES NOT SHOW--------------------------------------*/
+  /*-------The line not shows anymore ---------------------*/
   .presentation::before {
     display: none;
   }
 
-  /*----------------REZIZING THE DATES----------------------------------------*/
+  /*----------------Rezising titles--------------------*/
   .presentation-title,
   .presentation-title-today {
     text-align: center;
     font-size: 20px;
   }
 
-  /*----------------SOME SPACE BETWEEEN EACH ELEMENT ITEM-----------------------*/
   .presentation-item {
     padding: 50px 0;
     width: 100%;
@@ -977,30 +811,11 @@ BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
 
 }
 
-/******************************************************************************/
-/*---------------------------SCREEN ADAPTABILITY----------------------------- */
-
-/*---------------------------850px HEIGHT ----------------------------------- */
-/******************************************************************************/
-@media only screen and (max-height: 850px) {
-
-  /*punchline suscribe now dissapears*/
-  #suscribe-now {
-    display: none;
-  }
-}
-
-
-
-/******************************************************************************/
-/*---------------------------SCREEN ADAPTABILITY----------------------------- */
-
 /*---------------------------860px SCREEN AND SMALLER------------------------ */
-/******************************************************************************/
+
 @media only screen and (max-width: 890px) {
   #header {
     height: calc(var(--height-main) - 25px);
-    /* SIZE OF THE NAV BOX ON TOP*/
   }
 
   .navigation-bar {
@@ -1023,95 +838,88 @@ BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
     padding: 10px;
   }
 
-   /*we display premium offer one above the other*/
-   .premium-box-fixed {
+  /*we display premium offer one above the other*/
+  .premium-box-fixed {
     flex-direction: column;
-    
+
   }
+
   /*bigger size for boxes when screen smaller*/
   .premium-box-fixed .premium {
     width: 400px;
   }
 
-/*size of features into premium boxes*/
-.premium-box-fixed .premium .features>* {
-  font-size: 24px;
-}
+  /*size of features into premium boxes*/
+  .premium-box-fixed .premium .features>* {
+    font-size: 24px;
+  }
 
 
-  /*ACTIVE BUTTON MENU Resizing and border top instead of border bottom*/
+  /*Active menu button resizing*/
   .active {
     font-size: calc(var(--font-size-menu) - 50%);
     border-top: 3px solid var(--color-main-5);
     border-bottom: 0;
     filter: blur(.5px);
   }
-  /*Trailer video bigger*/
-  .media video {
-    border-radius: 62px;
-    width: 300px;
-    height: 375px;
-    box-shadow: 10px 15px 5px var(--color-black);
-  }
-  /*punchline suscribe now dissapears*/
-  #suscribe-now {
-    display: none;
-  }
+
 }
 
-/******************************************************************************/
-/*---------------------------SCREEN ADAPTABILITY----------------------------- */
-
 /*---------------------------760px SCREEN AND SMALLER------------------------ */
-/******************************************************************************/
+
 @media only screen and (max-width: 760px) {
   #header {
     height: calc(var(--height-main) - 90px);
-    /* SIZE OF THE NAV BOX ON TOP*/
   }
 
   .logo {
     display: none;
   }
 
+  /*bigger size for boxes when screen smaller*/
+  .premium-box-fixed .premium {
+    width: 300px;
+  }
+
   .middle-content.first {
     padding-top: calc(var(--height-main) + 20px);
-    /*WE START ABOVE THE FIXED menu*/
+    /*we start above the fixed menu*/
   }
+
   .middle-content {
     padding-top: 10px;
-    /*WE START ABOVE THE FIXED menu*/
   }
 }
 
-/******************************************************************************/
-/*---------------------------SCREEN ADAPTABILITY----------------------------- */
-
 /*---------------------------720px SCREEN AND SMALLER------------------------ */
-/******************************************************************************/
+
 @media only screen and (max-width: 720px) {
   #header {
     height: calc(var(--height-main) - 60px);
-    /* SIZE OF THE NAV BOX ON TOP*/
   }
 
-/*big image with punchlines displayed with a smaller image*/
-.main-media {
-  background: url('../images/main2.png') no-repeat center center;
-  overflow: hidden;
-  background-size: cover;
-  position: relative;
-  opacity: 0.9;
-}
-/*punchlines with animation*/
-#punchline1,
-#punchline2,
-#punchline3 {
-  letter-spacing: 1px;
-  padding: 10px 20px;
-  background: transparent;
-  color: var(--color-black);
-}
+  .title {
+    padding: 3px 3px;
+    text-align: center;
+  }
+
+  /*big image with punchlines displayed with a smaller image*/
+  .main-media {
+    background: url('../images/main2.png') no-repeat center center;
+    overflow: hidden;
+    background-size: cover;
+    position: relative;
+    opacity: 0.9;
+  }
+
+  /*punchlines with animation*/
+  #punchline2,
+  #punchline3 {
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    background: transparent;
+    color: var(--color-black);
+  }
 
   .middle-content.first {
     padding-top: calc(var(--height-main) + 25px);
@@ -1149,4 +957,5 @@ BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
   .presentation-content p {
     font-size: 14px;
   }
+
 }
