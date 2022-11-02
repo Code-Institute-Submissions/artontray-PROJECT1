@@ -468,6 +468,12 @@ If you need to "FORK" a repository:
 * Icons for social media came from [Google Images](https://www.google.com/maps).
 * Some Icons came from [Font Awesome](https://fontawesome.com/).
 * First loading picture came from [Pexels Images](https://www.pexels.com/).
+* Logos for partnerships come from : 
+- [Connies Wing](https://www.connieswingplustogo.com/)
+- [Le Petit Caraibe](https://en.99designs.fr/logo-design/contests/create-sunset-island-logo-caribbean-restaurant-le-petit-478666)
+- [Le Petit Pavillon](https://www.le-petit-pavillon-restaurant-marseille.com/)
+- [Le petit stamm](https://lepetitstamm.com/)
+- [Le Petit Bistrot](https://dribbble.com/shots/3722307-Le-Petit-Bistrot-Logo-Design?1502272160)
 
 [Back to top](<#contents>)
 
