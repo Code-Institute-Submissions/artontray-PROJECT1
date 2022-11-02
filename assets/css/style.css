@@ -173,7 +173,7 @@ body::before {
   letter-spacing: 2px;
   padding: 10px 20px;
   background: transparent;
-  color: var(--color-secondary);
+  color: var(--color-black);
 }
 
 #punchline1 {
@@ -243,13 +243,18 @@ body::before {
 /******************************************************************************/
 /*----------------------------BOX MAIN MIDDLE PAGE--------------------------- */
 /******************************************************************************/
+.middle-content.first {
+  padding-top: calc(var(--height-main) + 30px);
+}
 .middle-content {
-  padding: calc(var(--height-main) + 30px) 15%;
+  padding: 5px 15%;
   /*we start above fixed menu and give 15% padding both sides left and right*/
   display: flex;
   /*content ON SAME LINE*/
   justify-content: space-between;
   /*SPACE BETWEEN EACH ELEMENT DIV*/
+
+  padding-bottom: 40px;
 }
 
 /******************************************************************************/
@@ -258,12 +263,15 @@ body::before {
 .main-without-style,
 .main-with-style {
   width: 100%;
+  justify-content: space-between;
+  padding-bottom: 40px;
 }
 
 .main-with-style {
   background: var(--color-secondary);
   box-shadow: 0 0 var(--shadow-main) var(--color-black);
   border-radius: 22px;
+
 }
 
 .main-without-style {
@@ -277,7 +285,7 @@ body::before {
 .title {
   font-weight: 300;
   font-size: var(--font-size-titles);
-  padding: 30px 28px;
+  padding: 5px 28px;
 }
 
 .title-left h1 {
@@ -912,19 +920,25 @@ BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
     width: calc(var(--size-logo) - 70px);
   }
 
-  .middle-content {
+  .middle-content.first {
+    /*WE START ABOVE THE FIXED menu*/
     padding-top: calc(var(--height-main) + 5px);
+  }
+  .middle-content {
+    padding: 5px 5%;
     /*WE START ABOVE THE FIXED menu*/
     flex-direction: column;
     /*we display boxes above to each other*/
     margin: 5px;
   }
 
-  .main-with-style,
-  .main-without-style {
+  .main-without-style,
+  .main-with-style {
     width: 100%;
-    border-radius: 22px;
+    justify-content: space-between;
+    padding-bottom: 10px;
   }
+  
 
   .content p {
     font-size: calc(var(--font-size-main) - 4px);
@@ -1106,7 +1120,13 @@ BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
     border-bottom: 0;
     filter: blur(.5px);
   }
-
+  /*Trailer video bigger*/
+  .media video {
+    border-radius: 62px;
+    width: 300px;
+    height: 375px;
+    box-shadow: 10px 15px 5px var(--color-black);
+  }
   /*punchline suscribe now dissapears*/
   #suscribe-now {
     display: none;
@@ -1128,10 +1148,13 @@ BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
     display: none;
   }
 
-  .middle-content {
+  .middle-content.first {
     padding-top: calc(var(--height-main) + 20px);
     /*WE START ABOVE THE FIXED menu*/
-
+  }
+  .middle-content {
+    padding-top: 10px;
+    /*WE START ABOVE THE FIXED menu*/
   }
 }
 
@@ -1146,7 +1169,17 @@ BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
     /* SIZE OF THE NAV BOX ON TOP*/
   }
 
-  .middle-content {
+/*big image with punchlines displayed with a smaller image*/
+.main-media {
+  background: url('../images/main2.png') no-repeat center center;
+  height: auto;
+  width: auto;
+  overflow: hidden;
+  background-size: cover;
+  position: relative;
+}
+
+  .middle-content.first {
     padding-top: calc(var(--height-main) + 25px);
     /*WE START ABOVE THE FIXED menu*/
     padding-left: 30px;
