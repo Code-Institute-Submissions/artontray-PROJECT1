@@ -277,7 +277,7 @@ and select premium package of your choice.
 
 ## Submitted form
 
-Two extra pages called `submit-partners.html` and `submit-questions.html`has been created for submitting results.
+Two extra pages called `submit-partners.html` and `submit-questions.html`has been created as a sucessfull submit process.
 
 - Every correctly filled forms of the website will load those extra page just to inform that 
 the form has been correctly filled and the information will be transmitted.
@@ -304,7 +304,7 @@ the product, how it works, what are the offers and how to suscribe.
 As i wrote in the roadmap, my goal would be to develop the app 
 entirely. 
 
-As a first goal :
+**As a first goal** :
 - Create an log in section
 - Create a database where users can add ingredients list with prices 
 - Create a nice template for recipes
