@@ -277,9 +277,9 @@ and select premium package of your choice.
 
 ## Submitted form
 
-Two extra pages called `submitted.html` has been created to inform users that forms are correctly filled.
+Two extra pages called `submit-partners.html` and `submit-questions.html`has been created for submitting results.
 
-- Every correctly submit-partners.html and submit-questions.html forms of the website will load this extra page just to inform that 
+- Every correctly filled forms of the website will load those extra page just to inform that 
 the form has been correctly filled and the information will be transmitted.
 
 ![Submitted forms](assets/images/readme-images/submitted.png)
