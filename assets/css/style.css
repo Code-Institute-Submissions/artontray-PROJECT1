@@ -76,6 +76,7 @@ body::before {
 
 body::after {
   right: 0;
+  bottom: 50px;
   background-image: url('../images/image-right.png');
   overflow: hidden;
   background-repeat: no-repeat;

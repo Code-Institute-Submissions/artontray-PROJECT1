@@ -263,7 +263,7 @@ Box with design with title on center :
 In this section you can :
 - Suscribe as new client by filling up the payment information form 
 and select premium package of your choice. 
-- Any concerns, please use the form on left side.
+- Any concerns, please use the form below.
 
 ### suscribe form and "Any question form"
 
@@ -442,7 +442,7 @@ The site was deployed to GitHub pages. The steps to deploy a site are as follows
 
 The live link can be found here - [Here](https://github.com/artontray/PROJECT1)
 
-## how to fork a repository :
+## How to fork a repository :
 
 If you need to "FORK" a repository:
 
@@ -491,7 +491,7 @@ The method from cloning a project from GitHub is below:
 * Some Food Pictures came from [Google Images](https://www.google.com/maps).
 * Icons for social media came from [Google Images](https://www.google.com/maps).
 * Some Icons came from [Font Awesome](https://fontawesome.com/).
-* First loading picture came from [Pexels Images](https://www.pexels.com/).
+* First loading picture came from [Free pik Images](https://fr.freepik.com/photos-gratuite/fond-bleu-cadre-nourriture_5131541.htm).
 * Logos for partnerships come from : 
     - [Connies Wing](https://www.connieswingplustogo.com/)
     - [Le Petit Caraibe](https://en.99designs.fr/logo-design/contests/create-sunset-island-logo-caribbean-restaurant-le-petit-478666)
