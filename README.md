@@ -442,7 +442,7 @@ The live link can be found here - [Here](https://github.com/artontray/PROJECT1)
 
 If you need to "FORK" a repository:
 
-1. Login in to [GitHub](www.github.com) and go to https://github.com/artontray/PROJECT1
+1. Login in to [GitHub](https://github.com/) and go to https://github.com/artontray/PROJECT1
 2. In the top right corner, click `Fork`
 3. The next page will be the forked version of https://github.com/artontray/PROJECT1 but in your own repository
 
@@ -463,6 +463,7 @@ If you need to "FORK" a repository:
 [Back to top](<#contents>)
 
 ## Media
+
 * Some Food Pictures came from [Google Images](https://www.google.com/maps).
 * Icons for social media came from [Google Images](https://www.google.com/maps).
 * Some Icons came from [Font Awesome](https://fontawesome.com/).
