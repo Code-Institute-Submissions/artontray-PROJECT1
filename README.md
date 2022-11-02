@@ -119,7 +119,9 @@ who works in food industry. The main page is composed by three sections :
    to the previous page via the ‘back’ button. 
 
 ![Navigation Header](assets/images/readme-images/menu-navigation.png)
+
 [Back to top](<#contents>)
+
    ### Middle Page
 
 
