@@ -1,187 +1,224 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="FOOD COST APP allows you to get a control or a general view of your production costs">
+  <meta name="description"
+    content="FOOD COST APP allows you to get a control or a general view of your production costs">
   <meta name="keywords" content="Food cost, food, production, recipe, recipes organizer">
   <meta name="author" content="Damien B.">
   <title>FOOD COST</title>
   <!-- Link for CSS design of the page -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
   <!-- **********************************************************************  -->
   <!-- ************************** header, NAVIGATION menu *******************  -->
   <!-- **********************************************************************  -->
   <header id="header">
     <nav class="navigation-bar">
-                                    <!-- logo -->
-        <a href="#home" class="logo">
-          <img src="assets/images/logo.png" alt="logo FOOD APP">
-        </a>
-                              <!-- menu navigation -->
-        <ul class="menu">
-          <li><a  href="index.html">Home</a></li>
-          <li><a  href="partners.html">partners</a></li>
-          <li><a  href="suscribe.html" class="active">Suscribe</a></li>
+      <!-- logo -->
+      <a href="#home" class="logo">
+        <img src="assets/images/logo.png" alt="logo FOOD APP">
+      </a>
+      <!-- menu navigation -->
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="partners.html">partners</a></li>
+        <li><a href="suscribe.html" class="active">Suscribe</a></li>
       </ul>
     </nav>
   </header>
-<!-- **********************************************************************  -->
-<!-- ************************  SUSCRIBE PAGE ******************************  -->
-<!-- **********************************************************************  -->
-<section class="middle-content first">
-  <div class="main-without-style">
+  <!-- **********************************************************************  -->
+  <!-- ************************  SUSCRIBE PAGE ******************************  -->
+  <!-- **********************************************************************  -->
+
+
+
+
+
+
+
+  <section class="middle-content first">
+    <div class="main-without-style">
       <div class="content">
-                                  <!-- Any questions form -->
-        <div class="form-main">
-          <div id="suscribe-now">
-            <h2>Suscribe Now!<img src="assets/images/arrow.png" alt="arrow suscribe now" width="150"></h2>
+        <!-- Premium offers boxes -->
+        <div class="premium-box-fixed">
+          <div class="premium private">
+            <div class="title-premium">Private</div>
+            <div class="price">
+              <strong>€0.99</strong>
+            </div>
+            <div class="features">
+              <div>1 Account</div>
+              <div>Limited access</div>
+              <div>Only 1 recipi book</div>
+              <div>7 days trial</div>
+              <div>24/7 monitoring</div>
+            </div>
+            <div class="BUTTON-SIMPLE">
+              <form action="suscribe.html#payment" method="GET">
+                <button type="submit" class="button-submit">Suscribe Now!</button>
+              </form>
+            </div>
           </div>
+          <div class="premium BUSINESS">
+            <div class="title-premium">Business</div>
+            <div class="price">
+              <strong>€4.99</strong>
+              <span>per month</span>
+            </div>
+            <div class="features">
+              <div>Up to 3 accounts</div>
+              <div>Unlimited access</div>
+              <div>Up to 10 recipi book</div>
+              <div>30 days trial</div>
+              <div>24/7 monitoring</div>
+              <div>24/7 Support</div>
+            </div>
+            <div class="BUTTON-SIMPLE">
+              <form action="suscribe.html#payment" method="GET">
+                <button type="submit" class="button-submit">Suscribe Now!</button>
+              </form>
+            </div>
+          </div>
+          <div class="premium pro">
+            <div class="title-premium">pro</div>
+            <div class="price">
+              <strong>€14.99</strong>
+              <span>per month</span>
+            </div>
+            <div class="features">
+              <div>Up to 9 accounts</div>
+              <div>Unlimited access</div>
+              <div>Unlimited recipi book</div>
+              <div>30 days trial</div>
+              <div>24/7 monitoring</div>
+              <div>24/7 Support</div>
+              <div>Access to marketplace</div>
+              <div>Daily backup</div>
+            </div>
+            <div class="BUTTON-SIMPLE">
+              <form action="suscribe.html#payment" method="GET">
+                <button type="submit" class="button-submit">Suscribe Now!</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="middle-content first" id="payment">
+    <!-- Box right -->
+    <div class="main-with-style">
+      <div class="title title-center">
+        <h1>Suscribe Now!</h1>
+        <div class="content">
+          <div class="payment-box">
+            <div class="form-main">
+              <div class="form-content">
+                <div class="box-form">
+                  <form action="#" method="POST">
+                    <div class="input ">
+                      <input type="text" placeholder="Full name" class="input-item" maxlength="25" required>
+                      <input type="text" placeholder="Email" class="input-item" required>
+                    </div>
+                    <div class="input">
+                      <input type="password" placeholder="Password" class="input-item" required>
+                      <select name="what-package" class="input-item no-underline">
+                        <option value="private">private PACKAGE</option>
+                        <option value="BUSINESS">BUSINESS PACKAGE</option>
+                        <option value="pro">pro PACKAGE</option>
+                      </select>
+                    </div>
+                    <div class="input">
+                      <label for="exp-date-cb" class="input-checkbox-text">Credit Card :</label>
+                      <input type="date" class="input-item no-underline" id="exp-date-cb" min="2023-01-01" required>
+                      <input type="text" placeholder="Card Number" class="input-item" maxlength="25" required>
+                      <input type="text" placeholder="CVC" class="input-item" maxlength="3" required>
+                    </div>
+                    <button type="submit" class="button-submit">PAY NOW</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section class="middle-content">
+    <div class="main-without-style">
+      <div class="content">
+        <!-- Any questions form -->
+        <div class="form-main">
           <div class="form-content">
             <div class="box-form">
               <h3>Any questions about suscription<i class="fa-solid fa-circle-question fa-2x"></i></h3>
-                <form action="submit.html" method="GET">
-                  <div class="input">
-                    <input type="email" placeholder="Your Email" class="input-item" maxlength="25" required>
-                  </div>
-                  <div class="input">
-                    <label for="describe-your-concern">What is your concern ?</label>
-                  </div>
-                  <div class="input">
-                        <textarea id="describe-your-concern" cols="45" rows="7" maxlength="350" name="describe-your-concern" required></textarea>
-                        
-                  </div>
-                  <!-- The Custom Checkbox idea came from [YouTube tutorial](https://www.youtube.com/watch?v=PuoCczjlj1s&t=15s).-->
-                  <div class="input-checkbox">
-                    <input type="checkbox" class="input-checkbox-input" id="checkbox-newsletter" checked>
-                    <label for="checkbox-newsletter" class="input-checkbox-text">Newsletter ?</label>
-                    <label for="checkbox-newsletter" class="input-checkbox-slider"></label>
+              <form action="submit.html" method="GET">
+                <div class="input">
+                  <input type="email" placeholder="Your Email" class="input-item" maxlength="25" required>
                 </div>
-                  <button type="submit" class="button-submit">Send</button>
-                </form>
+                <div class="input">
+                  <label for="describe-your-concern">What is your concern ?</label>
+                </div>
+                <div class="input">
+                  <textarea id="describe-your-concern" cols="45" rows="7" maxlength="350" name="describe-your-concern"
+                    required></textarea>
+
+                </div>
+                <!-- The Custom Checkbox idea came from [YouTube tutorial](https://www.youtube.com/watch?v=PuoCczjlj1s&t=15s).-->
+                <div class="input-checkbox">
+                  <input type="checkbox" class="input-checkbox-input" id="checkbox-newsletter" checked>
+                  <label for="checkbox-newsletter" class="input-checkbox-text">Newsletter ?</label>
+                  <label for="checkbox-newsletter" class="input-checkbox-slider"></label>
+                </div>
+                <button type="submit" class="button-submit">Send</button>
+              </form>
             </div>
           </div>
         </div>
-                            <!-- END log in form -->
+        <!-- END log in form -->
       </div>
-  </div>
-  <div class="main-without-style">
-                            <!--3 PREMIUM boxes offers -->
-                            <!--The animation hovering box for payment idea came from [YouTube tutorial](https://www.youtube.com/watch?v=YM_f2fD7Yuk).-->
-          <div class="content container-offers">
-            <div class="premium-box">
-                              <!-- Offer 1 -->
-              <div class="premium private">
-                <div class="title-premium">Private</div>
-                <div class="price">
-                  <strong>€0.99</strong>
-                  <span>per year</span>
-                </div>
-                <div class="features">
-                  <div>1 Account</div>
-                  <div>Limited access</div>
-                  <div>Only 1 recipi book</div>
-                  <div>7 days trial</div>
-                  <div>24/7 monitoring</div>
-                </div>
-                <div class="BUTTON-SIMPLE">
-                  <form action="log-in.html#payment" method="POST">
-                    <button type="submit" class="button-submit">Suscribe Now!</button>
-                  </form>
-                </div>
-              </div>
-                            <!-- Offer 2 -->
-              <div class="premium business">
-                <div class="title-premium">Business</div>
-                <div class="price">
-                  <strong>€4.99</strong>
-                  <span>per month</span>
-                </div>
-                <div class="features">
-                  <div>Up to 3 accounts</div>
-                  <div>Unlimited access</div>
-                  <div>Up to 10 recipi book</div>
-                  <div>30 days trial</div>
-                  <div>24/7 monitoring</div>
-                  <div>24/7 Support</div>
-                </div>
-                <div class="BUTTON-SIMPLE">
-                  <form action="log-in.html#payment" method="POST">
-                    <button type="submit" class="button-submit">Suscribe Now!</button>
-                  </form>
-                </div>
-              </div>
-                          <!-- Offer 3 -->
-              <div class="premium pro">
-                <div class="title-premium">pro</div>
-                <div class="price">
-                  <strong>€14.99</strong>
-                  <span>per month</span>
-                </div>
-                <div class="features">
-                  <div>Up to 9 accounts</div>
-                  <div>Unlimited access</div>
-                  <div>Unlimited recipi book</div>
-                  <div>30 days trial</div>
-                  <div>24/7 monitoring</div>
-                  <div>24/7 Support</div>
-                  <div>Daily backup</div>
-                </div>
-                <div class="BUTTON-SIMPLE">
-                  <form action="log-in.html#payment" method="POST">
-                    <button type="submit" class="button-submit">Suscribe Now!</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-              <!--Payment box appears if mouse hover it (only big screen) -->
-            <div class="payment-box" id="payment">
-              <div class="form-main">
-                <div class="form-content">
-                  <div class="box-form">
-                    <form action="#" method="POST">
-                      <div class="input input_in_line" >
-                        <input type="text" placeholder="Full name" class="input-item" maxlength="25" required>
-                        <input type="text" placeholder="Email" class="input-item" required>
-                      </div>
-                      <div class="input input_in_line">
-                        <input type="password" placeholder="Password" class="input-item" required>
-                        <select name="what-package" class="input-item no-underline">
-                          <option value="private">private PACKAGE</option>
-                          <option value="BUSINESS">BUSINESS PACKAGE</option>
-                          <option value="pro">pro PACKAGE</option>
-                        </select>
-                      </div>
-                      <div class="input">
-                        <label for="exp-date-cb" class="input-checkbox-text">Exp. Date Credit Card</label>
-                        <input type="date" class="input-item no-underline" id="exp-date-cb" min="2023-01-01" required>
-                        <input type="text" placeholder="Card Number" class="input-item" maxlength="25" required>
-                        <input type="text" placeholder="CVC" class="input-item" maxlength="3" required>
-                      </div>
-                      <button type="submit" class="button-submit">PAY NOW</button>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </div>
-  </div>
-</section>
-<!-- FOOTER WITH SOCIAL media LEFT SIDE AND COPYRIGHT RIGHT SIDE -->
-<footer>
-  <div class="social-items-area">
-      <div class="social-item"><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook"><img src="assets/images/facebook.png" alt="Facebook link"></a></div>
-      <div class="social-item"><a href="https://web.telegram.org/k/" target="_blank" rel="noopener" aria-label="Visit our Telegram"><img src="assets/images/telegram.png" alt="Telegram link"></a></div>
-      <div class="social-item"><a href="https://twitter.com/home" target="_blank" rel="noopener" aria-label="Visit our Twitter"><img src="assets/images/twitter.png" alt="Twitter link"></a></div>
-      <div class="social-item"><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our Youtube channel"><img src="assets/images/youtube.png" alt="Youtube link"></a></div>
+    </div>
+  </section>
+  <!-- FOOTER WITH SOCIAL media LEFT SIDE AND COPYRIGHT RIGHT SIDE -->
+  <footer>
+    <div class="social-items-area">
+      <div class="social-item"><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+          aria-label="Visit our Facebook"><img src="assets/images/facebook.png" alt="Facebook link"></a></div>
+      <div class="social-item"><a href="https://web.telegram.org/k/" target="_blank" rel="noopener"
+          aria-label="Visit our Telegram"><img src="assets/images/telegram.png" alt="Telegram link"></a></div>
+      <div class="social-item"><a href="https://twitter.com/home" target="_blank" rel="noopener"
+          aria-label="Visit our Twitter"><img src="assets/images/twitter.png" alt="Twitter link"></a></div>
+      <div class="social-item"><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+          aria-label="Visit our Youtube channel"><img src="assets/images/youtube.png" alt="Youtube link"></a></div>
       <div class="copyrights">
         <h2>&copy; FOOD COST</h2>
       </div>
-  </div>
-</footer>
-<!--Script for small Items on the page-->
-<script src="https://kit.fontawesome.com/d33bc14455.js" crossorigin="anonymous"></script>
+    </div>
+  </footer>
+  <!--Script for small Items on the page-->
+  <script src="https://kit.fontawesome.com/d33bc14455.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

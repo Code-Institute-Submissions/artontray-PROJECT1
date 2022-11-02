@@ -371,7 +371,6 @@ footer {
   background-color: var(--color-white);
   /* COLORING OF THE menu FOOTER */
   width: 100%;
-  background: transparent;
   position: fixed;
   /* FOOTER WILL STAY BOTTOM LEFT EVEN SCROLLING*/
   z-index: 100;
@@ -380,12 +379,17 @@ footer {
     /* SIZE OF THE FOOTER BOX ON BOTTOM*/
 }
 
+.footer-email{
+text-align: center;
+width:100%;
+font-size: 12px;
+}
 /******************************************************************************/
 /*---------------------------copyrights-------------------------------------- */
 /******************************************************************************/
 .copyrights {
   background: transparent;
-  width: 100%;
+  width: 20%;
   text-align: right;
   font-size: var(--font-size-copyright);
   padding-right: 150px;
@@ -443,8 +447,7 @@ aside {
  - Business (business class)
  - pro (pro class)
 /******************************************************************************/
-.premium-box-fixed,
-.premium-box {
+.premium-box-fixed{
   display: flex;
   width: 90%;
   justify-content: space-between;
@@ -452,12 +455,8 @@ aside {
   padding: 20px;
 }
 
-.premium-box {
-  transition: all 0.6s;
-}
 
-.premium-box-fixed .premium,
-.premium-box .premium {
+.premium-box-fixed .premium{
   border: 5px solid var(--color-main-6);
   width: 200px;
   text-align: center;
@@ -469,29 +468,15 @@ aside {
 }
 
 .premium-box-fixed .premium {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
-.premium-box .premium.private {
-  transform: scale(0.7);
-}
 
-.premium-box .premium.business {
-  transform: scale(0.8);
-}
-
-.premium-box .premium.pro {
-  background-color: var(--color-main-1);
-  transform: scale(0.9);
-}
-
-.premium-box .premium .price,
 .premium-box-fixed .premium .price {
   margin-bottom: 25px;
   text-align: center;
 }
 
-.premium-box .premium .price strong,
 .premium-box-fixed .premium .price strong {
   font-size: 40px;
   margin-bottom: -5px;
@@ -500,17 +485,16 @@ aside {
   color: var(--color-main-6);
 }
 
-.premium-box .premium .features>*,
+
 .premium-box-fixed .premium .features>* {
   color: var(--color-main-black);
   padding: 8px 0;
   border-bottom: 1px solid var(--color-black);
-  font-size: 12px;
+  font-size: 15px;
 }
 
 /*last element of the list with no border-bottom*/
-.premium-box-fixed .premium .features div:last-child,
-.premium-box .premium .features div:last-child {
+.premium-box-fixed .premium .features div:last-child{
   border-bottom: 0;
 }
 
@@ -741,10 +725,6 @@ All items (presentation-item)on presentation timeline have :
   border: 0;
 }
 
-/*Displaying inputs on same line*/
-.input_in_line {
-  display: inline-flex;
-}
 
 /*-------------------BUTTONS WITH STYLE-------------------------------------- */
 .button-submit {
@@ -824,34 +804,6 @@ All items (presentation-item)on presentation timeline have :
   opacity: 0;
 }
 
-/*-------------OFFERS CONTAINER FOR SUSCRIPTION PACKAGES----------------------*/
-.container-offers {
-  width: auto;
-  position: relative;
-  background-size: cover;
-  overflow: hidden;
-}
-
-.container-offers:hover .premium-box {
-  transform: translateX(-100%);
-}
-
-.container-offers:hover .payment-box {
-  transform: translateX(0%);
-}
-
-/*payment-box will appears when hover premium-box*/
-.payment-box {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  transform: translateX(100%);
-  transition: all 1s;
-}
 
 
 /*title of each offers*/
@@ -872,23 +824,22 @@ BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
   }
 
   #punchline3 {
-    font-size: 100%;
-    top: 400px;
+    font-size: 24px;
+    top: 500px;
     left: 30px;
     position: absolute;
   }
 
   #punchline2 {
-    font-size: 100%;
-    top: 200px;
+    font-size: 28px;
+    top: 300px;
     left: 0;
     position: absolute;
   }
 
   /*Premium boxes offers on index.html reducing size*/
   .premium-box-fixed .premium {
-    width: 200px;
-    transform: scale(0.8);
+    transform: scale(0.9);
   }
 }
 
@@ -970,38 +921,9 @@ BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
     display: none;
   }
 
-  /*Premium boxes offers on index.html reducing*/
-  .premium-box-fixed .premium,
-  .premium-box-fixed .premium.pro {
-    width: 180px;
-    transform: scale(0.8);
-  }
 
-  /*No more animation for display containers-offers, it will appears above*/
-  .container-offers:hover .premium-box {
-    transform: none;
-  }
 
-  .premium-box {
-    display: flex;
-    width: 90%;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-  }
 
-  /*We make appears the payment box above */
-  .payment-box {
-    position: inherit;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    overflow: visible;
-    transform: translateX(0%);
-    /*we display the box on visible area*/
-  }
 
   /******************************************************************************/
   /*---------------------------Presentation timeline style--------------------- */
@@ -1101,17 +1023,21 @@ BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
     padding: 10px;
   }
 
-  /*WE DISPLAY premium OFFER DIFFERENTLY*/
-  .premium-box .premium.private,
-  .premium-box .premium.pro {
-    transform: scale(0.8);
-  }
-
-  .premium-box,
-  .premium-box-fixed {
+   /*we display premium offer one above the other*/
+   .premium-box-fixed {
     flex-direction: column;
-
+    
   }
+  /*bigger size for boxes when screen smaller*/
+  .premium-box-fixed .premium {
+    width: 400px;
+  }
+
+/*size of features into premium boxes*/
+.premium-box-fixed .premium .features>* {
+  font-size: 24px;
+}
+
 
   /*ACTIVE BUTTON MENU Resizing and border top instead of border bottom*/
   .active {
@@ -1172,11 +1098,19 @@ BOTTOM OF header IS THE TOP OF THE MIDDLE content/*/
 /*big image with punchlines displayed with a smaller image*/
 .main-media {
   background: url('../images/main2.png') no-repeat center center;
-  height: auto;
-  width: auto;
   overflow: hidden;
   background-size: cover;
   position: relative;
+  opacity: 0.9;
+}
+/*punchlines with animation*/
+#punchline1,
+#punchline2,
+#punchline3 {
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  background: transparent;
+  color: var(--color-black);
 }
 
   .middle-content.first {
