@@ -130,15 +130,15 @@ who works in food industry. The main page is composed by three sections :
 
 Box without design with title on left side :
 
-![Middle page with 5 responsive boxes](assets/images/readme-images/box-design01.png)
+![Middle page with left side title](assets/images/readme-images/box-design01.png)
 
 Box with design with title on right side :
 
-![Middle page with 5 responsive boxes](assets/images/readme-images/box-design02.png)
+![Middle page with right side title](assets/images/readme-images/box-design02.png)
 
 Box with design with title on center :
 
-![Middle page with 5 responsive boxes](assets/images/readme-images/box-design03.png)
+![Middle page with center title](assets/images/readme-images/box-design03.png)
 
 
   - middle content can have 1, 2, 3, 4 and even 5 boxes in same line.
@@ -155,8 +155,8 @@ Box with design with title on center :
 
 [Back to top](<#contents>)
    ### Footer
-  - The footer contains social media links (left side) and copyrights area (right side).
-  This section is fixed and it will allow the user to comunicate with the team from anywhere in the website.
+  - The footer contains social media links  and email adress.
+  This section is situated in the bottom of each page and it will allow the user to comunicate with the team from anywhere in the website.
   The links will open to a new tab to allow easy navigation for the user.
 
 ![Footer section](assets/images/readme-images/footer.png)
@@ -177,6 +177,7 @@ Box with design with title on center :
   - It was important for me to explain the current situation 
   in small food industry companies to highlights FOOD COST solution's 
   proposal.
+
   ### Are you in this situation?
 
   - A small list of questions which FOOD COST can answers.
@@ -246,7 +247,7 @@ Box with design with title on center :
 
   * Partnership is important.
   * Partnership listing to highlights our current partners of the App
-  * Partnership Timeline to highlights chronologic aspects.
+  * Partnership Timeline to highlights some chronologic aspects.
 
 ![Roadmap](assets/images/readme-images/partners.png)
 
@@ -257,9 +258,6 @@ Box with design with title on center :
 
 ## Suscribe
 
-I wanted this page to be displayed everything on the same display, so 
-no need to scroll down. You have direct access to the different offers
-and just by hovering an offer you acces to payment form.
 In this section you can :
 - Suscribe as new client by filling up the payment information form 
 and select premium package of your choice. 
@@ -267,7 +265,7 @@ and select premium package of your choice.
 
 ### suscribe form and "Any question form"
 
-![Offers and payment form on same page](assets/images/readme-images/suscribe01.png)
+![Offers and payment form on same page](assets/images/readme-images/any-questions.png)
 
 ### Payment form
 
@@ -277,14 +275,14 @@ and select premium package of your choice.
 
 ## Submitted form
 
-An extra page called `submitted.html` has been created to inform users that forms are correctly filled.
+Two extra pages called `submitted.html` has been created to inform users that forms are correctly filled.
 
-- Every correctly submitted forms of the website will load this extra page just to inform that 
+- Every correctly submit-partners.html and submit-questions.html forms of the website will load this extra page just to inform that 
 the form has been correctly filled and the information will be transmitted.
 
 ![Submitted forms](assets/images/readme-images/submitted.png)
 
-A meta refresh is used to load home page after 5 secondes.
+A meta refresh is used to load home page / suscribe page after 5 secondes.
 
 ![Submitted forms](assets/images/readme-images/refresh.png)
 
@@ -354,7 +352,7 @@ The HTML validator results for each page are below:
 [Back to top](<#contents>)
 ### CSS
   The website site has been tested through the 
-  [CSS Validator](https://jigsaw.w3.org/).
+  [CSS Validator](https://jigsaw.w3.org/css-validator/).
   Some Warnings shows up at the beginning but easily fixed.
 
 ![style.css](assets/images/readme-images/css-checker.png)
@@ -479,7 +477,6 @@ The method from cloning a project from GitHub is below:
 
 * The font came from [Google Fonts](https://fonts.google.com/specimen/Delius?query=delius).
 * [Veed.io](https://www.veed.io/) was used to compress the video trailer.
-* The animation hovering box for payment idea came from [YouTube tutorial](https://www.youtube.com/watch?v=YM_f2fD7Yuk).
 * The vertical Timeline idea came from [YouTube tutorial](https://www.youtube.com/watch?v=L9W33EuGjoY&t=345s).
 * The Custom Checkbox idea came from [YouTube tutorial](https://www.youtube.com/watch?v=PuoCczjlj1s&t=15s).
 * [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes.
@@ -514,6 +511,7 @@ To be honest, best parts of my learning progress are the following :
 ![Keyframes](assets/images/readme-images/keyframes.png)
 
 [Back to top](<#contents>)
+
 # Acknowledgements
 The site was completed as a Portfolio 1 Project for the Full Stack Software Developer Diploma at the [Code Institute](https://codeinstitute.net/).
 As such I would like to thank the web in general for beeing such a open library for learning, the Slack community for the good vibes and help.

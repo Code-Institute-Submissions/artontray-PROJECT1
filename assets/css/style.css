@@ -162,8 +162,8 @@ body::before {
 
 #punchline1 {
   font-size: 150%;
-  bottom: 550px;
-  left: 500px;
+  bottom: 650px;
+  left: 200px;
   position: absolute;
   animation-name: animation-punchline1;
   animation-duration: 2s;
@@ -183,8 +183,8 @@ body::before {
 
 #punchline2 {
   font-size: 200%;
-  bottom: 370px;
-  left: 350px;
+  bottom: 450px;
+  left: 150px;
   position: absolute;
   animation-name: animation-punchline2;
   animation-duration: 4s;
@@ -204,8 +204,8 @@ body::before {
 
 #punchline3 {
   font-size: 300%;
-  bottom: 100px;
-  left: 500px;
+  bottom: 300px;
+  left: 150px;
   letter-spacing: 10px;
   position: absolute;
   animation-name: animation-punchline3;
