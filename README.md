@@ -528,7 +528,7 @@ To be honest, best parts of my learning progress are the following :
 
 # Acknowledgements
 The site was completed as a Portfolio 1 Project for the Full Stack Software Developer Diploma at the [Code Institute](https://codeinstitute.net/).
-As such I would like to thank the web in general for beeing such a open library for learning, the Slack community for the good vibes and my mentor **Precious_Mentor**.
+As such I would like to thank the web in general for beeing such an open library for learning, the Slack community for the good vibes and my mentor **Precious_Mentor** for the support.
 
 
 This material has been prepared for educational purposes only and is not intended to provide any offer or service.
