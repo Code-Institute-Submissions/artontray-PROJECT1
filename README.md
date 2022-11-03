@@ -380,7 +380,7 @@ in Chrome Developer Tools to test each of the pages for:
 * SEO - Search engine optimisation. Is the site optimised for search engine result rankings.
 
 My first try was surprising : Very slow to load
-![Bad perf.](assets/images/readme-images/bad-perf.png)
+![Bad perf.](assets/images/readme-images/bad-perf01.png)
 
 This part of the testing process showed up that the site was slow to load, mainly due to 
 the image sizes and video trailer. All the images/videos needed to be compressed before adding to the repository.
