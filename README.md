@@ -355,7 +355,7 @@ The HTML validator results for each page are below:
 ### CSS
   The website site has been tested through the 
   [CSS Validator](https://jigsaw.w3.org/css-validator/).
-  Some Warnings shows up at the beginning but easily fixed.
+  No errors or warnings shows up as the picture below shows :
 
 ![style.css](assets/images/readme-images/css-checker.png)
 
@@ -374,7 +374,7 @@ Appearance, functionality and responsiveness were consistent throughout for a ra
 ## Lighthouse
 The site was also tested using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) 
 in Chrome Developer Tools to test each of the pages for:
-* Performance - How the page performs whilst loading.
+* Performance - How the page performs while loading.
 * Accessibility - Is the site acccessible for all users and how can it be improved.
 * Best Practices - Site conforms to industry best practices.
 * SEO - Search engine optimisation. Is the site optimised for search engine result rankings.
@@ -396,6 +396,10 @@ and thanks [Veed.io](https://www.veed.io/) :
 After using [Panda Tiny png](https://tinypng.com/) and [Veed.io](https://www.veed.io/) :
 
 ![Thanks Panda](assets/images/readme-images/after-compress.png)
+
+![Thanks Panda](assets/images/readme-images/after-compress02.png)
+
+![Thanks Panda](assets/images/readme-images/after-compress03.png)
 
 [Back to top](<#contents>)
 
