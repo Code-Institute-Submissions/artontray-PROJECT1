@@ -19,7 +19,6 @@ html {
   padding: 0;
   font-family: Delius, Georgia, serif, Helvetica, Arial, sans-serif;
   scroll-behavior: smooth;
-  /* SCROLLING content PAGE SMOOTH */
 }
 
 
@@ -231,10 +230,10 @@ body::before {
 }
 
 .middle-content {
-  padding: 5px 15%;
   /*we start above fixed menu and give 15% padding both sides left and right*/
-  display: flex;
+  padding: 5px 15%;
   /*content ON SAME LINE*/
+  display: flex;
   justify-content: space-between;
   padding-bottom: 40px;
 }
@@ -244,7 +243,8 @@ body::before {
 .main-with-style {
   width: 100%;
   justify-content: space-between;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 25px;
 }
 
 .main-with-style {
@@ -335,37 +335,37 @@ content.partners {
 
 
 /*---------------------------FOOTER------------------------------ */
-.footer {
+.footer{
   background-color: var(--color-white);
   text-align: center;
 }
 
-footer p {
+footer p{
   text-align: center;
   padding-bottom: 10px;
 }
 
-footer img {
+footer img{
   width: 30px;
   height: 30px;
   padding: 15px;
 }
 
 /*---------------------------INPUTS, P, TEXTAREA AND ASIDE------------------- */
-textarea {
+textarea{
   resize: none;
 }
 
 input,
-textarea {
+textarea{
   font-family: inherit;
 }
 
-p {
+p{
   text-align: justify;
 }
 
-aside {
+aside{
   font-weight: 400;
   font-style: italic;
   font-size: 12px;
@@ -428,7 +428,7 @@ aside {
   font-weight: 800;
 }
 
-/*--------------------PRESENTATION VERTICAL TIMELINE STYLE------------------- */
+/*-------------------- VERTICAL PRESENTATION TIMELINE STYLE------------------- */
 .presentation {
   margin: auto;
   flex-wrap: wrap;
@@ -545,7 +545,7 @@ aside {
 
 
 
-/*--------------------FORMS FOR LOGIN AND SUSCRIBE OFFERS----------- */
+/*--------FORMS---------- */
 .form-main {
   padding: 30px 15px;
   justify-content: center;
@@ -557,7 +557,6 @@ aside {
 .form-content {
   width: 100%;
   max-width: 550px;
-  /*WE MAINTAIN THIS SIZE FOR SMALLER SCREENS*/
   position: relative;
 }
 
@@ -608,7 +607,7 @@ aside {
 }
 
 
-/*-------------------BUTTONS WITH STYLE-------------------------------------- */
+/*-------------------BUTTONS WITH STYLE------------------------ */
 .button-submit {
   height: 45px;
   width: 100%;
@@ -638,7 +637,7 @@ aside {
   width: 100%;
 }
 
-/*-------------BUTTON CHECKBOX WITH STYLE-------------------------------------*/
+/*-------------CUSTOM CHECKBOX WITH STYLE-------------------------------------*/
 .input-checkbox {
   display: flex;
   align-items: center;
@@ -746,9 +745,8 @@ aside {
 
   .middle-content {
     padding: 5px 5%;
-    /*WE START ABOVE THE FIXED menu*/
-    flex-direction: column;
     /*we display boxes above to each other*/
+    flex-direction: column;
     margin: 5px;
   }
 
@@ -757,6 +755,7 @@ aside {
     width: 100%;
     justify-content: space-between;
     padding-bottom: 10px;
+    box-shadow: none;
   }
 
   .content p {
@@ -778,7 +777,6 @@ aside {
     padding-left: 0;
   }
 
-
   /*----------------Dots not shows anymore------------*/
   .presentation-point,
   .presentation-point-today,
@@ -799,7 +797,7 @@ aside {
   }
 
   .presentation-item {
-    padding: 50px 0;
+    padding: 20px 0;
     width: 100%;
   }
 
@@ -812,7 +810,7 @@ aside {
 
 }
 
-/*---------------------------860px SCREEN AND SMALLER------------------------ */
+/*---------------------------890px SCREEN AND SMALLER------------------------ */
 
 @media only screen and (max-width: 890px) {
   #header {
@@ -829,8 +827,9 @@ aside {
 
   .middle-content {
     padding-top: calc(var(--height-main) + 15px);
-    ;
   }
+
+
 
   /*resizing menu items*/
   .menu li a,
@@ -864,6 +863,8 @@ aside {
     filter: blur(.5px);
   }
 
+
+
 }
 
 /*---------------------------760px SCREEN AND SMALLER------------------------ */
@@ -883,12 +884,12 @@ aside {
   }
 
   .middle-content.first {
-    padding-top: calc(var(--height-main) + 20px);
     /*we start above the fixed menu*/
+    padding-top: calc(var(--height-main) + 20px);
   }
 
   .middle-content {
-    padding-top: 10px;
+    padding-top: 25px;
   }
 }
 
@@ -923,9 +924,13 @@ aside {
   }
 
   .middle-content.first {
-    padding-top: calc(var(--height-main) + 25px);
-    /*WE START ABOVE THE FIXED menu*/
+    padding-top: calc(var(--height-main) - 65px);
     padding-left: 30px;
+  }
+  .main-with-style,
+  .main-without-style {
+    padding-bottom: 55px;
+    box-shadow: none;
   }
 
   .navigation-bar {

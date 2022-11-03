@@ -413,6 +413,14 @@ To sum up :
 
 ## Fixed Bug
 
+  The Layout in smaller screen as Iphone SE shows some issues with the box shadow.
+
+  ![Bad layout on smaller screens](assets/images/readme-images/bug-fixed01.png)
+  
+  I fixed it easily by take away the shadow effect : `box-shadow: none;` into `style.css file`.
+
+  ![Much better layout for smaller screens](assets/images/readme-images/bug-fixed01.png)
+
   The website site has been tested through the 
   [W3C html Validator](https://validator.w3.org/).
   Some Warnings shows up at the beginning but easily fixed.
