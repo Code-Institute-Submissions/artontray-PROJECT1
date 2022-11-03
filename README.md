@@ -395,7 +395,7 @@ and thanks [Veed.io](https://www.veed.io/) :
 
 After using [Panda Tiny png](https://tinypng.com/) and [Veed.io](https://www.veed.io/) :
 
-![Thanks Panda](assets/images/readme-images/after-compress.png)
+![Thanks Panda](assets/images/readme-images/after-compress01.png)
 
 ![Thanks Panda](assets/images/readme-images/after-compress02.png)
 
