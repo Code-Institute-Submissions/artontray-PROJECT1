@@ -419,7 +419,7 @@ To sum up :
   
   I fixed it easily by take away the shadow effect : `box-shadow: none;` into `style.css file`.
 
-  ![Much better layout for smaller screens](assets/images/readme-images/bug-fixed01.png)
+  ![Much better layout for smaller screens](assets/images/readme-images/bug-fixed02.png)
 
   The website site has been tested through the 
   [W3C html Validator](https://validator.w3.org/).
