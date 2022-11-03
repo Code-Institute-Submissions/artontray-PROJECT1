@@ -500,8 +500,8 @@ The method from cloning a project from GitHub is below:
 
 ## Media
 
-* Some Food Pictures came from [Google Images](https://www.google.com/maps).
-* Icons for social media came from [Google Images](https://www.google.com/maps).
+* Some Food Pictures came from [Google Images](https://images.google.com/).
+* Icons for social media came from [Google Images](https://images.google.com/).
 * Some Icons came from [Font Awesome](https://fontawesome.com/).
 * First loading picture came from [Free pik Images](https://fr.freepik.com/photos-gratuite/fond-bleu-cadre-nourriture_5131541.htm).
 * Logos for partnerships come from : 
@@ -528,7 +528,8 @@ To be honest, best parts of my learning progress are the following :
 
 # Acknowledgements
 The site was completed as a Portfolio 1 Project for the Full Stack Software Developer Diploma at the [Code Institute](https://codeinstitute.net/).
-As such I would like to thank the web in general for beeing such a open library for learning, the Slack community for the good vibes and help.
+As such I would like to thank the web in general for beeing such a open library for learning, the Slack community for the good vibes and my mentor **Precious_Mentor**.
+
 
 This material has been prepared for educational purposes only and is not intended to provide any offer or service.
 
